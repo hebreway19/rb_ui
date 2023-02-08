@@ -1,0 +1,23 @@
+$root-url: '/fonts/Cardo';
+
+/* 400 - Normal */
+@font-face {
+  font-family: "Cardo";
+  src: url("#{$root-url}/Cardo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("#{$root-url}/Cardo-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* 700 - Bold */
+@font-face {
+  font-family: "Cardo";
+  src: url("#{$root-url}/Cardo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

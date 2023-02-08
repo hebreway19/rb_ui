@@ -1,0 +1,26 @@
+.heb-radio.heb-radio__button.ant-radio-button-wrapper > span:nth-child(2) {
+  line-height: 36px !important;
+}
+.heb-radio.heb-radio__button.ant-radio-button-wrapper:not(:last-child),
+.heb-radio .ant-radio-button-wrapper:not(:last-child){
+  margin-right: 27px;
+}
+
+.heb-radio.heb-radio__button.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before,
+.heb-radio .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background-color: #75ECF9 !important;
+}
+.heb-radio.heb-radio__button.ant-radio-button-wrapper.padding-size__small > span:nth-child(2),
+.heb-radio .ant-radio-button-wrapper.padding-size__small > span:nth-child(2) {
+  line-height: 8px !important;
+}
+.heb-radio.heb-radio__button.padding-size__small {
+  padding: 8px 7px;
+}
+
+.heb-radio.heb-radio__button.ant-radio-button-wrapper-checked,
+.heb-radio .ant-radio-button-wrapper-checked {
+  background: rgba(117, 236, 249, 1) !important;
+  border: 2px solid #75ECF9 !important;
+  box-sizing: border-box;
+}

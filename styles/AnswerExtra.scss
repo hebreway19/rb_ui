@@ -1,0 +1,12 @@
+body {
+  .page-answers__extra__button {
+    height: 36px !important;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+  }
+  .page-answers__extra__button.heb-button:after {
+    content: none;
+    position: relative;
+  }
+}

@@ -1,0 +1,36 @@
+.heb-modal.ant-modal {
+  & > .ant-modal-content {
+    background: linear-gradient(-180deg, rgba(112, 104, 142, 0.69) 0%, rgba(117, 236, 249, 0.47) 83.36%) !important;
+    box-shadow: inset 0px 4px 14px #FFFFFF !important;
+    backdrop-filter: blur(29px) !important;
+    border-radius: 40px !important;
+
+    & > .ant-modal-header {
+      background: transparent !important;
+      border-top-left-radius: 40px !important;
+      border-top-right-radius: 40px !important;
+
+      border-bottom: 3px solid transparent;
+      border-image: linear-gradient(269.86deg, #A8FDFF 4.32%, rgba(174, 253, 252, 0.864219) 22.17%, rgba(201, 255, 238, 0.21) 82.2%);
+      border-image-slice: 1;
+
+      & > .ant-modal-title,
+      & > .ant-modal-title .ant-typography {
+        font-family: Georgia, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 37px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+      }
+    }
+
+    & > .ant-modal-footer {
+      border-top: 3px solid #75ECF9;
+      padding-bottom: 3.125rem;
+    }
+  }
+}

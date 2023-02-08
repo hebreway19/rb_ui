@@ -1,0 +1,143 @@
+.auth__social__from {
+
+  .social__content-plate {
+    .icon {
+      width: calc(100vw / 27.4285714286);
+      height: calc(100vw / 27.4285714286);
+
+      border: 6px solid #75ECF9;
+    }
+    .icon.fb {
+      background-size: calc(100vw / 120) calc(100vw / 32.7272727273);
+    }
+    .icon.google {
+      background-size: calc(100vw / 54.8571428571) calc(100vw / 54.8571428571);
+    }
+    .icon.vk {
+      background-size: calc(100vw / 41.7391304348) calc(100vw / 76.8);
+    }
+    .icon.apple {
+      background-size: calc(100vw / 60) calc(100vw / 50.5263157895);
+    }
+  }
+
+  .social__container__title {
+    position: absolute;
+    top: calc(calc(100vh / -24) - calc(100vh / 27));
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: calc(100vh / 27);
+    /* identical to box height */
+
+    letter-spacing: calc(100vh / 1920);
+    text-transform: lowercase;
+    width: 100%;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .social__container:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: calc(100vw / 15.2380952381);
+    z-index: 3;
+    top: calc(100vh / -27);
+    right: calc(100vw / -14.0700571596);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(269.86deg,
+                                #A8FDFF 4.32%,
+                                rgba(174, 253, 252, 0.864219) 22.17%,
+                                rgba(201, 255, 238, 0.21) 82.2%),
+                linear-gradient(269.86deg,
+                                #A8FDFF 4.32%,
+                                rgba(174, 253, 252, 0.864219) 22.17%,
+                                rgba(201, 255, 238, 0.21) 82.2%);
+  }
+  .social__container:before {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: calc(100vw / 12.8);
+    z-index: 3;
+    top: calc(100vh / -27);
+    left: calc(100vw / -12.5490196078);
+    background: linear-gradient(269.86deg,
+                                #A8FDFF 4.32%,
+                                rgba(174, 253, 252, 0.864219) 22.17%,
+                                rgba(201, 255, 238, 0.21) 82.2%),
+                linear-gradient(269.86deg,
+                                #A8FDFF 4.32%,
+                                rgba(174, 253, 252, 0.864219) 22.17%,
+                                rgba(201, 255, 238, 0.21) 82.2%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .auth__social__from {
+    .social__content-plate {
+      .icon {
+        width: calc(100vw / 10.9714285714);
+        height: calc(100vw / 10.9714285714);
+      }
+      .icon.fb {
+        background-size: calc(100vw / 48) calc(100vw / 23.2727272727);
+      }
+      .icon.google {
+        background-size: calc(100vw / 21.9428571429) calc(100vw / 21.9428571429);
+      }
+      .icon.vk {
+        background-size: calc(100vw / 16.6956521739) calc(100vw / 30.72);
+      }
+      .icon.apple {
+        background-size: calc(100vw / 24) calc(100vw / 20.2105263158);
+      }
+    }
+
+    .social__container:after {
+      height: 4px;
+      width: calc(100vw / 5.25020508614);
+      top: calc(100vh / -18.962962963);
+      right: calc(100vw / -9.03529411765);
+    }
+    .social__container:before {
+      height: 4px;
+      width: calc(100vw / 5.25020508614);
+      top: calc(100vh / -18.962962963);
+      left: calc(100vw / -7.52941176471);
+    }
+  }
+
+  @media (max-width: 425px) {
+    .auth__social__from {
+      .social__container__title {
+        top: calc(calc(100vh / -33.35) - calc(100vh / 35.1052631579));
+
+        font-size: 16px;
+        line-height: calc(100vh / 35.1052631579);
+      }
+      .social__content-plate {
+        .fa-layers {
+          font-size: 2rem;
+        }
+      }
+
+      .social__container:after {
+        height: 4px;
+        width: calc(100vw / 5.43163383546);
+        top: calc(100vh / -32.905772077);
+        right: calc(100vw / -7.35294117647);
+      }
+      .social__container:before {
+        height: 4px;
+        width: calc(100vw / 5.70342205323);
+        top: calc(100vh / -32.905772077);
+        left: calc(100vw / -9.61538461538);
+      }
+    }
+  }
+}

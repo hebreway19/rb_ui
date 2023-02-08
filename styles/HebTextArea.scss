@@ -1,0 +1,27 @@
+.heb-textarea {
+  width: 100%;
+  background: #E1E1E1 !important;
+  border: 3px solid #75ECF9 !important;
+  box-sizing: border-box !important;
+
+  font-size: 1.5rem !important;
+
+  box-shadow: inset 0 4px 6px rgba(117, 236, 249, 0.46) !important;
+  border-radius: 31px !important;
+  padding: 1.5rem !important;
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+
+    color: #787878;
+  }
+}

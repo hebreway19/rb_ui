@@ -1,0 +1,65 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(min-resolution: 192dpi) and (min-device-pixel-ratio: 2/1)";
+
+body.hebreway {
+  background: linear-gradient(104.91deg, #303144 1.5%, #7A7C89 105.55%);
+}
+
+.home-page__container {
+  content: '';
+  background-image: url(/img/svg/earth.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.header {
+  @media #{$mq-tiny} {
+    height: 37.75rem;
+  }
+
+  @media #{$mq-small} {
+    height: 51.1875rem;
+  }
+
+  @media #{$mq-medium} {
+    height: 33.325rem;
+  }
+
+  @media #{$mq-xlarge}, #{$mq-retina} {
+    height: 47.8125rem;
+  }
+}
+
+.footer {
+  background: rgba(#58596B, 0.7);
+
+  @media #{$mq-tiny} {
+    height: 7.9375rem;
+  }
+
+  @media #{$mq-small} {
+    height: 11rem;
+  }
+
+  @media #{$mq-medium} {
+    height: 8.875rem;
+  }
+
+  @media #{$mq-xlarge}, #{$mq-retina} {
+    height: 16.1875rem;
+  }
+}

@@ -1,0 +1,20 @@
+.go-back__button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.45);
+  transition: all 0.3s;
+
+  span[role="img"] {
+    vertical-align: 0 !important;
+    position: absolute;
+    top: 0.5rem !important;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+}

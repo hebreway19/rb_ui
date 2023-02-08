@@ -1,0 +1,17 @@
+.navigate {
+    margin-bottom: -24px !important;
+}
+.navigate aside,
+.navigate aside .ant-layout-sider-children {
+    z-index: 100;
+    background: linear-gradient(90.75deg, #6D6F91 7.38%, rgba(110, 112, 146, 0.69) 60.82%, #8284A2 89.28%), linear-gradient(92.35deg, #5A5C83 -0.4%, #8287A5 62.1%) !important;
+}
+.navigate aside {
+    /* drop-shadow / 0.15 */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.navigate .ant-menu-item,
+.navigate aside .ant-layout-sider-children ul,
+.navigate aside .ant-layout-sider-children ul li.ant-menu-item{
+    background: inherit !important;
+}

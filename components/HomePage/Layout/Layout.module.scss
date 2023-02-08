@@ -1,0 +1,131 @@
+.container {
+  width: 100vw;
+  padding: 0 1.4375rem;
+
+  background-image: url("/img/mobile_bg.png");
+  background-position-y: -3.3rem;
+  background-position-x: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  @media (min-width: 1024px) {
+    background-image: url("/img/svg/earth.svg");
+    padding: 0;
+    background-position-y: center;
+    background-size: 100% auto;
+  }
+}
+
+.mobileHeader {
+  width: 100%;
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.header {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+    min-width: calc(100vw - 30.7275rem);
+
+    @media (min-width: 1440px) {
+      min-width: calc(100vw - 44.3125rem - 7.75rem);
+    }
+  }
+}
+
+.content {
+  width: calc(100vw - (1.4375rem * 2));
+
+  @media (min-width: 1024px) {
+    min-height: calc(100vh - 8.88125rem);
+    width: 100%;
+    max-width: 30.7275rem;
+    padding-left: 2.963125rem;
+    padding-right: 2.525rem;
+    background: linear-gradient(90.75deg, #6D6F91 7.38%, rgba(110, 112, 146, 0.69) 60.82%, #8284A2 89.28%),
+                linear-gradient(92.35deg, #5A5C83 -0.4%, #8287A5 62.1%);
+
+    @media (min-width: 1440px) {
+      padding-left: 3.75rem;
+      margin-right: 7.75rem;
+      max-width: 44.3125rem;
+      min-height: calc(100vh - 15.8125rem);
+    }
+  }
+}
+
+.desktopContent {
+  display: none;
+
+  @media (min-width: 1024px) {
+    padding-top: 1.5rem;
+    padding-bottom: 2.425rem;
+    display: block;
+
+    h1 {
+      padding-top: 2.819375rem;
+
+      @media (min-width: 1440px) {
+        padding-top: 6.125rem;
+      }
+    }
+  }
+  @media (min-width: 1440px) {
+    padding-top: 2.9375rem;
+    padding-bottom: 3.6875rem;
+  }
+}
+
+.socialTitle {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 30.7275rem;
+    width: 100%;
+
+    @media (min-width: 1440px) {
+      max-width: 44.3125rem;
+    }
+  }
+}
+
+.socialTitle__divider {
+  margin: 0 !important;
+  color: #ffffff !important;
+
+  span {
+    padding-right: 3.67rem;
+    padding-left: 3.67rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    letter-spacing: 0.0625rem;
+    text-transform: lowercase;
+
+    @media (min-width: 1440px) {
+      font-size: 2.125rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.0625rem;
+    }
+  }
+}
+.socialTitle__divider::after,
+.socialTitle__divider::before {
+  height: 6px;
+  border-top: none;
+  top: 34px !important;
+  background: linear-gradient(269.86deg, #A8FDFF 4.32%, rgba(174, 253, 252, 0.864219) 22.17%, rgba(201, 255, 238, 0.21) 82.2%), linear-gradient(269.86deg, #A8FDFF 4.32%, rgba(174, 253, 252, 0.864219) 22.17%, rgba(201, 255, 238, 0.21) 82.2%);
+}
+.socialTitle__divider::after {
+  transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+}

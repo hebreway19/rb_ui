@@ -1,0 +1,21 @@
+.heb-page-header {
+  .ant-page-header-heading-left {
+    width: 100% !important;
+
+    .ant-page-header-heading-title {
+      width: 100% !important;
+    }
+  }
+}
+
+.heb-control {
+  .ant-btn {
+    border: .125rem solid #FFFFFF !important;
+    span[role=img] {
+      font-size: 1.625rem;
+    }
+  }
+  .ant-btn:after {
+    display: none;
+  }
+}

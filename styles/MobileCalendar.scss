@@ -1,0 +1,209 @@
+.mobile-calendar {
+  .selected-day {
+    .day-number {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 66px;
+      /* identical to box height */
+
+
+      color: #FFFFFF;
+    }
+    .day-week,
+    .month-year {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+
+      height: 16px;
+      color: #BCC1CD;
+    }
+    .day-week {
+      margin-top: auto;
+      margin-bottom: 0;
+    }
+    .month-year {
+      margin-top: 0;
+      margin-bottom: auto;
+    }
+  }
+  .controls {
+    .ant-select {
+      background: #737390 !important;
+      border: 2px solid #75ECF9;
+      box-sizing: border-box;
+      width: 100%;
+
+      .ant-select-selector {
+        border: none;
+        .ant-select-selection-item {
+          font-family: Roboto, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 23px;
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+          color: #ffffff;
+        }
+      }
+
+      & * {
+        background: #737390 !important;
+      }
+    }
+  }
+  .month-list {
+    width: 100%;
+    overflow: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .item {
+      width: 40px !important;
+      height: 57px;
+      padding: 7px 10px;
+      margin: auto 2px;
+
+      .week-day {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+
+        color: #BCC1CD;
+      }
+      .month-day {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+      }
+    }
+    .item.selected {
+      background: #75ECF9;
+      border-radius: 10px;
+
+      color: #000000;
+      .week-day,
+      .month-day {
+        color: #000000;
+      }
+    }
+  }
+  .cells-hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(rgba(168, 253, 255, 1),
+                                rgba(174, 253, 252, 0.8642),
+                                rgba(201, 255, 238, 0.21)),
+                linear-gradient(rgba(168, 253, 255, 1),
+                                rgba(174, 253, 252, 0.8642),
+                                rgba(201, 255, 238, 0.21));
+  }
+  .lesson-type-selector {
+    .label {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+  }
+  .time-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+
+    color: #BCC1CD;
+  }
+  .lesson-list {
+    .time-label {
+      color: #BCC1CD;
+
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .time-label:after {
+      height: calc(137px + 24px);
+      content: "";
+      position: absolute;
+      width: 2px;
+      top: -12px;
+      bottom: -12px;
+      left: 75px;
+      background: #ffffff;
+    }
+    .time-label.active:after {
+      background: linear-gradient(253.58deg, #75ECF9 1.55%, #1B9AAC 95.8%);
+    }
+    .time-label.active {
+      color: #75ECF9;
+    }
+    &-container {
+      height: 450px;
+      overflow: auto;
+      .ant-list-item {
+        border: none;
+      }
+      .ant-list-item .card-content {
+        background: #F6F6F5;
+        border-radius: 16px;
+        height: 137px;
+        padding: 16px 8px 17px 16px;
+
+        .lesson-title {
+          font-family: Poppins, sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #212525;
+          height: 24px;
+
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .lesson-sub-title {
+          font-family: Poppins, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #212525;
+
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .lesson-author {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+
+      .ant-list-item .card-content.active {
+        background: #B3B4B9;
+        border: 1px solid #75ECF9;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

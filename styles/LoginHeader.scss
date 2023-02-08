@@ -1,0 +1,60 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(min-resolution: 192dpi) and (min-device-pixel-ratio: 2/1)";
+
+.form__title {
+  & h1 {
+    font-family: "Book Antiqua", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.105rem;
+
+    @media #{$mq-tiny} {
+      font-size: 2.25rem;
+      line-height: 1.75rem;
+    }
+
+    @media #{$mq-small} {
+      font-size: 3.4375rem;
+      line-height: 3.75rem;
+    }
+
+    @media #{$mq-medium} {
+      font-size: 3rem;
+      line-height: 3.2rem;
+      margin-bottom: 0;
+    }
+
+    @media #{$mq-xlarge}, #{$mq-retina} {
+      font-size: 5.75rem;
+      line-height: 5.3125rem;
+      margin-bottom: 1.5rem;
+    }
+
+    color: #FFFFFF;
+
+    & span {
+      color: #75ecf9;
+    }
+  }
+}
+
+.header__form {
+  &-login {
+    background: linear-gradient(90.75deg, #6D6F91 7.38%, rgba(110, 112, 146, 0.69) 60.82%, #8284A2 89.28%), linear-gradient(92.35deg, #5A5C83 -0.4%, #8287A5 62.1%);
+  }
+}

@@ -1,0 +1,20 @@
+.heb-input-number {
+  border: 2px solid #75ECF9 !important;
+  box-shadow: unset !important;
+  background-color: #737390 !important;
+  input {
+    color: #ffffff;
+  }
+  .ant-input-number-handler-wrap {
+    background: unset;
+    .ant-input-number-handler {
+      border-left: 2px solid #75ECF9 !important;
+      span[role="img"] {
+        color: #fff;
+      }
+    }
+    .ant-input-number-handler-down {
+      border-top: 1px solid #75ECF9 !important;
+    }
+  }
+}

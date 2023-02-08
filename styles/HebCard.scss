@@ -1,0 +1,27 @@
+.heb-card.ant-card {
+  background: unset !important;
+  border: 2px solid #75ECF9;
+  &:hover {
+    border: 2px solid #75ECF9;
+  }
+  .ant-card {
+    &-head {
+      border-bottom: 2px solid #75ECF9;
+
+      span {
+        color: #ffffff;
+      }
+    }
+    &-body {
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+  .ant-card-grid {
+    box-shadow: none;
+  }
+  .ant-card-grid:not(:last-child) {
+    border-bottom: 2px solid #75ECF9;;
+  }
+}

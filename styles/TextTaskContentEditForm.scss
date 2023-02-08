@@ -1,0 +1,27 @@
+@import "./cke.scss";
+
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.text-task-content__edit-from__content {
+  .heb-paragraph {
+    height: 25.62375rem;
+
+    @media #{$min-width-md-retina-xl} {
+      height: 17.006875rem;
+    }
+  }
+}

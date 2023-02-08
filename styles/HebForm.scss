@@ -1,0 +1,20 @@
+.heb-form__item {
+  margin-bottom: 0.5rem;
+
+  &-default {
+  }
+  &-filter {
+  }
+  .ant-form-item-label label > span,
+  .ant-form-item-label label,
+  .ant-form-item-label h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF !important;
+  }
+}

@@ -1,0 +1,1 @@
+export { useTextContent, textContentContext } from "./useTextContent";

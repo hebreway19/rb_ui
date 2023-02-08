@@ -1,0 +1,60 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.heb-menu {
+  & .ant-menu-item {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    @media #{$mq-tiny} {
+    }
+
+    @media #{$mq-small} {
+      font-size: 1rem !important;
+      line-height: 1.1875rem !important;
+    }
+
+
+
+    @media #{$mq-xlarge} {
+    }
+
+    display: flex;
+    align-items: center;
+
+    color: #FEFEFE;
+  }
+  .ant-menu {
+    direction: rtl;
+    & > * {
+      direction: ltr;
+    }
+  }
+  .ant-menu::-webkit-scrollbar {
+    width: .25rem;
+  }
+
+  .ant-menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .ant-menu::-webkit-scrollbar-thumb {
+    background-color: rgba(117, 236, 249, 0.7);
+  }
+  .ant-menu:hover::-webkit-scrollbar-thumb {
+    background-color: #75ECF9;
+  }
+}

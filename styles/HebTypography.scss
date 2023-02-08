@@ -1,0 +1,38 @@
+.heb-typography {
+  font-family: "Georgia", serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+h1.heb-typography {
+  text-transform: uppercase !important;
+}
+h2.heb-typography {
+  text-transform: uppercase !important;
+}
+h3.heb-typography {
+  font-size: 33px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-transform: uppercase !important;
+}
+h4.heb-typography {
+  text-transform: uppercase !important;
+}
+h5.heb-typography {
+  text-transform: uppercase !important;
+}
+h6.heb-typography {
+  text-transform: uppercase !important;
+}
+
+p.heb-typography,
+span.heb-typography,
+span.heb-typography > mark {
+  font-family: "Roboto" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  letter-spacing: 0.085em;
+}

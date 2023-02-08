@@ -1,0 +1,143 @@
+@mixin border-radius__placement-right() {
+  border-bottom-left-radius: 2.5rem;
+  border-top-left-radius: 2.5rem;
+}
+
+@mixin border-radius__placement-left() {
+  border-bottom-right-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+
+@mixin border-radius__placement-top() {
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+
+@mixin border-radius__placement-bottom() {
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+
+.heb-drawer {
+  &.ant-drawer-top {
+    .ant-drawer-content {
+      .ant-drawer-body {
+        padding-top: 2.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+      @include border-radius__placement-top;
+    }
+  }
+
+  &.ant-drawer-bottom {
+    .ant-drawer-content {
+      @include border-radius__placement-bottom;
+    }
+  }
+
+  &.ant-drawer-left {
+    .ant-drawer-content {
+      @include border-radius__placement-left;
+    }
+  }
+
+  &.ant-drawer-right {
+    .ant-drawer-content {
+      @include border-radius__placement-right;
+    }
+  }
+
+  .ant-drawer-mask {
+    background-color: #ffffff00;
+  }
+
+  .ant-drawer-content-wrapper {
+    max-width: 732px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+
+  .ant-drawer-content {
+    background: linear-gradient(180deg, rgba(117, 236, 249, 0.47) 0%, rgba(112, 104, 142, 0.69) 83.36%) !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: inset 0 4px 14px #FFFFFF;
+  }
+
+  .ant-drawer-content .ant-drawer-wrapper-body,
+  .ant-drawer-content .ant-drawer-header-no-title,
+  .ant-drawer-content .ant-drawer-header,
+  .ant-drawer-content .ant-drawer-body {
+    background: none !important;
+  }
+
+  .ant-drawer-content .ant-drawer-header {
+    border: none;
+  }
+
+  .ant-drawer-content * {
+    color: #ffffff;
+  }
+  .ant-drawer-header {
+    padding: 20px 42px 20px 89px;
+  }
+  .ant-drawer-body {
+    padding: 42px 42px 42px 89px;
+  }
+}
+
+@media (max-width: 675px) {
+  .heb-drawer {
+    &.ant-drawer-top {
+      .ant-drawer-content {
+        .ant-drawer-header {
+          padding-left: 19px;
+          padding-right: 15px;
+        }
+        .ant-drawer-body {
+          padding-top: 53px;
+          padding-left: 19px;
+          padding-right: 15px;
+        }
+
+        @include border-radius__placement-top;
+      }
+    }
+  }
+}
+
+.heb-drawer {
+
+  .ant-drawer-header {
+    .ant-drawer-title {
+      font-family: Georgia, sans-serif;
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      letter-spacing: 0.1875rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .ant-form-item-label {
+    color: #FFFFFF;
+    font-style: normal;
+
+    & > label > h3 {
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 2.375rem;
+      letter-spacing: 0.1875rem;
+      text-transform: uppercase;
+
+    }
+
+    & > label {
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+  }
+}

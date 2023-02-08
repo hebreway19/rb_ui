@@ -1,0 +1,1 @@
+export { NavigateComponent } from "./NavigateComponent";

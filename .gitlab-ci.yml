@@ -1,0 +1,80 @@
+stages:          # List of stages for jobs, and their order of execution
+  - test
+  - deploy
+
+cache:
+  key: $CI_PROJECT_ID
+  policy: pull
+  untracked: true
+
+Run tests dev:
+  stage: test
+  cache:
+    key: $CI_PROJECT_ID
+    policy: pull-push
+    paths:
+      - .yarn
+      - node_modules
+      - 'packages/*/node_modules'
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  before_script:
+    - git fetch --no-tags --depth=1 origin master
+    - yarn config set cache-folder .yarn
+    - yarn install
+  script:
+    - yarn test:ci:dev
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - junit.xml
+      cobertura: coverage/cobertura-coverage.xml
+  only:
+    - /^release/
+
+Run tests prod:
+  stage: test
+  cache:
+    key: $CI_PROJECT_ID
+    policy: pull-push
+    paths:
+      - .yarn
+      - node_modules
+      - 'packages/*/node_modules'
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  before_script:
+    - git fetch --no-tags --depth=1 origin master
+    - yarn config set cache-folder .yarn
+    - yarn install
+  script:
+    - yarn test:ci:prod
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - junit.xml
+      cobertura: coverage/cobertura-coverage.xml
+  only:
+    - master
+
+Deploy stage:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  image: ruby:2.6
+  environment: staging
+  before_script:
+    - gem install dpl
+  script:
+    - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_TOKEN
+  only:
+    - /^release/
+
+Deploy prod:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  image: ruby:2.6
+  environment: production
+  before_script:
+    - gem install dpl
+  script:
+    - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_TOKEN
+  only:
+    - master

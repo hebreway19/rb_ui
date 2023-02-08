@@ -1,0 +1,38 @@
+.heb-button {
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  box-sizing: border-box;
+  &.ant-btn-icon-only {
+    padding-left: .8rem !important;
+    padding-right: .8rem !important;
+    min-width: 48px;
+  }
+}
+.heb-button:after {
+  content: "";
+  top: -.125rem;
+  left: 15%;
+  position: absolute;
+  width: 70%;
+  height: .125rem;
+  background-color: #FCFE2B !important;
+  z-index: 1000;
+}
+.heb-button.over-text > span:not(.anticon) {
+  width: calc(100% - 2.5rem) !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+.heb-button.over-text > span:nth-child(2) {
+  width: calc(100% - 3.75rem) !important;
+}
+.heb-button.over-text > span.ant-btn-loading-icon {
+  width: 1.5625rem !important;
+}
+.heb-button.without-indicator:after {
+  display: none;
+}

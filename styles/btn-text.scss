@@ -1,0 +1,8 @@
+.heb-button__text {
+  border: none !important;
+  background: inherit !important;
+}
+.heb-button__text.heb-button:after {
+  content: none;
+  position: relative;
+}

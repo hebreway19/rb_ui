@@ -1,0 +1,24 @@
+.footer {
+  @media (min-width: 1024px) {
+    background-color: #58596B;
+    border: 1px solid #59608C;
+  }
+}
+
+.footer__content {
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    max-width: 30.7275rem;
+    height: calc(8.88125rem - 2px);
+    background: url("/img/svg/schedule.svg") bottom no-repeat;
+    background-size: cover;
+
+    @media (min-width: 1440px) {
+      margin-right: 7.75rem;
+      max-width: 44.3125rem;
+
+      height: calc(15.8125rem - 2px);
+    }
+  }
+}

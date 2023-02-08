@@ -1,0 +1,17 @@
+.spinner {
+  width: 100%;
+}
+
+.loginForm {
+  padding-bottom: 2rem;
+
+  @media (min-width: 1440px) {
+    padding-bottom: 5.6875rem;
+    max-width: 27.1875rem;
+  }
+}
+
+.loginForm__forgotPassword {
+  color: #75ecf9;
+  cursor: pointer !important;
+}

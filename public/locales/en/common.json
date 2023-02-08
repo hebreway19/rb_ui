@@ -1,0 +1,1950 @@
+{
+  "log_in": "Log in",
+  "sign_up": "Sign up",
+  "sign_up_header": "Sign up",
+  "email": "E-mail",
+  "password": "Password",
+  "confirm password": "Confirm password",
+  "remember me": "Remember me",
+  "change": "Edit info",
+  "or sign up with": "Or sign up with",
+  "log in header": "Log In",
+  "sign up header": "Sign up",
+  "already have an account": "I already have an account",
+  "don't have an account": "I don't have an account yet",
+  "date of birth": "Birthdate",
+  "firstname": "Firstname",
+  "lastname": "Lastname",
+  "change_pass": "Change password",
+  "change_pass_title": "Change password",
+  "phone": "Phone",
+  "should accept agreement": "Should accept agreement",
+  "i have read": "I have read the",
+  "agreement": "agreement",
+  "skype": "Skype",
+  "age": "Age",
+  "country_and_city": "Country and city",
+  "post_address": "Post address",
+  "new password": "New password",
+  "confirm new password": "Confirm new password",
+  "save": "Apply",
+  "password_valid": "Please input your password!",
+  "info_updat_was_successful": "Info has been updated successfully",
+  "cancel_btn_personal_info": "Press to cancel",
+  "cancel": "cancel",
+  "edit_fields": "Press to edit",
+  "the_operation_was_successful": "The operation was successful",
+  "undisable_user": "Enable",
+  "disable_user": "Disable",
+  "register_as_ulpan": {
+    "link_name": "Register as ulpan",
+    "inputs": {
+      "ulpan_name": "Ulpan name",
+      "short_ulpan_description": "Short description",
+      "ulpan_description": "Description",
+      "contact_email": "Contact e-mail",
+      "contact_phone": "Contact phone",
+      "address": "Address",
+      "welcome_audio_file": "Welcome Audio",
+      "logo_file": "Logo",
+      "students_required_fields": "Required fields for students to fill out"
+    },
+    "submit": "Proceed"
+  },
+  "check_your_mail": {
+    "header": "To confirm your account, confirm your email",
+    "description": "The email was sent automatically. If you have not received a letter, you can send it again or return to the registration page.",
+    "resend": "Resend",
+    "go_back": "Back to registration",
+    "alert": "The message was sent to the mail"
+  },
+  "status_alert": {
+    "title": "Your status",
+    "description_awaith_review_by_ulpan": "For further activity, wait for the confirmation of the account by the administration.",
+    "description_banned": "Your account has been blocked by the ulpan administrator."
+  },
+  "check_your_mail_header": "Check your mail!",
+  "check_your_mail_description": "An email was sent to you with a link to renew your registration.",
+  "agreement_no": "You must accept the terms of the agreement!",
+  "language": {
+    "none": "None",
+    "fr": "French",
+    "en": "English",
+    "ru": "Russian"
+  },
+  "role": "Role",
+  "status": "Status",
+  "social network": "Social networks",
+  "photo": "Photo",
+  "date of creation": "Creation date",
+  "email confirmed": "Email Confirmed",
+  "deactivate": "Deactivate",
+  "inactive": "Inactive",
+  "active": "Active",
+  "confirmed": "Confirmed",
+  "disproved": "Disproved",
+  "hebrew proficiency": "Hebrew proficiency",
+  "country": "Country",
+  "approve/reject": "Approve/Reject",
+  "social_title_link": "Open in new tab your social account",
+  "for_reg_ulpan": "To register in the ulpan, enter the following data",
+  "loading": "Loading",
+  "card_ulpan_tooltip": "Learn a trial lesson",
+  "choose": "Select",
+  "log_out": "Log out",
+  "hebrew_proficiency": "Hebrew proficiency",
+  "native_language": "Native language",
+  "incorrect_username_or_password": "Incorrect username or password.",
+  "submit_login_popover": "Press to log in.",
+  "redirect_to_register_popover": "Press to register.",
+  "submit_register_popover": "Press to register.",
+  "redirect_to_log_in_popover": "Press to go to the authorization form",
+  "message_log_out": "You are signed out",
+  "save_btn_profile_description": "Press to save the new password",
+  "save_btn_personal_info": "Press to save your personal information",
+  "header_ulpan_info": "Personal information for Ulpan",
+  "not_found": {
+    "header": "Not found",
+    "go_back": "Go home page"
+  },
+  "forgot_password": {
+    "header": "Password recovery",
+    "sub_header_email": "Enter your email to recover your password",
+    "sub_header_password": "To recover your password, enter a new one",
+    "check_mail": {
+      "header": "A link to change your password has been sent to your email. Your email: ",
+      "subheader": "The email was sent automatically. If you have not received the letter, you can send it again or return it to the login page.",
+      "go_back": "Back to login page",
+      "change_mail": "Change email"
+    }
+  },
+  "input": {
+    "enter_email": "Enter your E-mail",
+    "enter_password": "Enter new password",
+    "sand": "Sand",
+    "apply": "Apply"
+  },
+  "choosed": "Selected",
+  "go_to_application": "Go to application",
+  "tooltips": {
+    "are_you_sure": "Are you sure?",
+    "start": {
+      "entity": "Start an {{entity}}?"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "you_have_no_access": "You have no access",
+    "press_to_action": "Press to {{action}}",
+    "action_not_available_cause_of_reason": "Action not available:\n{{reason}}",
+    "reasons": {
+      "entered_datas_are_invalid": "Entered data are invalid",
+      "nothing_changed": "Nothing changed",
+      "lesson_is_new": "Lesson is new"
+    }
+  },
+  "messages": {
+    "lesson_link_for_students_copied": "Lesson link copied to clipboard",
+    "lesson_link_shared": "Lesson link shared",
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "failed": "Failed",
+    "validate": {
+      "failed": "Fields in the form do not match validation"
+    },
+    "favorites": {
+      "add": "Added to favorites",
+      "remove": "Removed from favorites"
+    },
+    "select_word": "Select a word",
+    "success": "The operation was successful",
+    "not_access": {
+      "entity": "Access to {{entity}} is restricted",
+      "role": "Your role does not match the access rights",
+      "state": "Your status does not match the access rights"
+    },
+    "file": {
+      "upload_success": "File has been uploaded successfully",
+      "error_with_errorMessage": "An error occurred while uploading: {{errorMessage}}",
+      "error": "An error occurred while uploading"
+    },
+    "not_found": {
+      "entity": "{{entity}} not found"
+    },
+    "lesson": {
+      "exam": {
+        "title_with_name": "Access to exam {{name}} has been restricted",
+        "accessPeriod": "Access to the exam is provided from {{openFrom}} to {{openTo}}"
+      },
+      "not_saved": {
+        "exercise": "Lesson not saved. If you want to add an exercise to this lesson, you must save it."
+      }
+    }
+  },
+  "actions": {
+    "preview": {
+      "plain": "Preview",
+      "entity": "Preview {{entity}}"
+    },
+    "share_lesson_by_link_with_students": "Share lesson by link with students",
+    "upload_image": "Upload image",
+    "select": "Select",
+    "share": {
+      "plain": "Share",
+      "with_teachers": "Share {{entity}} with teachers",
+      "with_students": "Share {{entity}} with students"
+    },
+    "delete": "Delete {{entity}}",
+    "create": {
+      "entity": "Create {{entity}}",
+      "entity_based_on": "Create {{target_entity}} based on {{source_entity}})"
+    },
+    "clear": {
+      "plain": "Clear",
+      "entity": "Clear {{entity}}"
+    },
+    "remove": {
+      "entity": "Remove {{entity}}"
+    },
+    "add": {
+      "entity": "Add {{entity}}",
+      "exercise": "Add {{exerciseType}} exercise"
+    },
+    "add_new": {
+      "entity": {
+        "male": "Add new {{entity}}",
+        "female": "Add new {{entity}}",
+        "neuter": "Add new {{entity}}"
+      },
+      "exercise": "Add new {{exerciseType}} exercise"
+    },
+    "turn": {
+      "on": {
+        "exercise": "Turn on {{exerciseType}} {{exercise}}"
+      },
+      "off": {
+        "exercise": "Turn off {{exerciseType}} {{exercise}}"
+      }
+    },
+    "apply": "Apply",
+    "send": "Send",
+    "open": "Open {{entity}}",
+    "restore": "Restore {{entity}} from recycle bin",
+    "save": "Save {{entity}}",
+    "update": "Save changes",
+    "edit": "Edit {{entity}}",
+    "refresh": "Refresh",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "record": {
+      "entity": "Record {{entity}}"
+    },
+    "upload": {
+      "entity": "Upload {{entity}}"
+    },
+    "download": {
+      "type_file":"Download {{typeFile}}",
+      "popconfirm": "When the file is loaded, it will be saved. Are you sure?",
+      "download_last_save": "Changes were not saved, download the last saved version?"
+    },
+    "show": {
+      "label": "Show",
+      "entity": "Show {{entity}}",
+      "entity_in_container": "Show {{entity}} in {{container}}"
+    },
+    "hide": {
+      "label": "Hide",
+      "entity": "Hide {{entity}}",
+      "entity_in_container": "Hide {{entity}} in {{container}}"
+    },
+    "search": {
+      "label": "Search",
+      "entity": "Search {{entity}}",
+      "by_entity": "Search by {{entity}}"
+    },
+    "to_day": "To day"
+  },
+  "entities": {
+    "american_question": "American question",
+    "text_question": "Text question",
+    "true_false_question": "True/False question",
+    "question": "Question",
+    "image": "Image",
+    "audio": "Audio",
+    "paragraph": "Paragraph",
+    "sentence": "Sentence",
+    "card": {
+      "default": "Card",
+      "d": "Card"
+    },
+    "set": "Set",
+    "lesson": {
+      "template": "Lesson template",
+      "template_r": "Lesson template",
+      "templates": "Lessons templates",
+      "exam": "Exam",
+      "exam_r": "Exam",
+      "exams": "Exams",
+      "lesson": "Lesson",
+      "lesson_r": "Lesson",
+      "lessons": "Lessons"
+    },
+    "task": {
+      "title": "Task",
+      "text": "Text task",
+      "audio": "Audio task",
+      "video": "Video task"
+    },
+    "exercise": {
+      "exercise": "Exercise",
+      "exercises": "Exercises"
+    },
+    "answer": {
+      "answer": "Answer",
+      "answers": "Answers",
+      "file": "File answer"
+    },
+    "tour": "Tour",
+    "footnote": "Footnote",
+    "type_file": {
+      "pdf": "PDF"
+    },
+    "translation": {
+      "translation": "Translation"
+    },
+    "category":  {
+      "case": {
+        "nominative": "Category",
+        "accusative": "Category"
+      }
+    },
+    "text": "Text"
+  },
+  "personal_info": "Personal information",
+  "fonts": {
+    "arial": "Arial",
+    "david": "David",
+    "times_new_roman": "Times new roman",
+    "guttman": "Guttman"
+  },
+  "navs": {
+    "home": "Home",
+    "account_info": "Profile",
+    "personal_info": "Change profile",
+    "settings": "Settings",
+    "user_agreement": "User Agreement",
+    "ulpan_info": "Ulpan info",
+    "other_settings_integration": "My login options",
+    "lists": "Lists",
+    "list_of_users": "List of users",
+    "list_of_ulpans": "Ulpans",
+    "administrators_of_ulpans": "Administrators of ulpans",
+    "list_of_teacher": "Teacher",
+    "list_of_groups": "Groups",
+    "timetable_exams": "Exams timetable",
+    "list_of_students": "Students",
+    "list_of_tasks": "Tasks",
+    "list_of_exercises": "Exercises",
+    "list_of_courses": "Courses",
+    "lessons": "Lessons",
+    "templates": "Lessons templates",
+    "exams": "Exams",
+    "lessons_timetable": "Lessons timetable",
+    "results_exams": "Results of exams",
+    "content": "Content",
+    "content_of_courses": "Courses content",
+    "content_of_students": "Students content",
+    "public_content": "Public",
+    "finance": "Finance",
+    "task_answers": "Answers",
+    "task_answers_for_student": "Answers",
+    "statistics": "Statistics",
+    "comments_and_suggestions": "Comments and suggestions",
+    "personal_information": "Personal information",
+    "choose_ulpan": "Choose ulpan",
+    "users_list": "Users list",
+    "register_as_ulpan": "Ulpan registration",
+    "footnote_list": "Footnotes"
+  },
+  "landing": {
+    "banner": {
+      "title": "Hebreway",
+      "slogan": "Learn Hebrew effectively!"
+    },
+    "content": [
+      {
+        "title": "Why Hebreway",
+        "blocks": [
+          {
+            "title": "Best price",
+            "text": "And high quality"
+          },
+          {
+            "title": "Efficiency",
+            "text": "Efficient and modern education approach"
+          },
+          {
+            "title": "Detailed reports",
+            "text": "Detailed reports about your progress"
+          }
+        ]
+      },
+      {
+        "title": "Some title",
+        "text": "Some description"
+      },
+      {
+        "title": "Title for end of page",
+        "text": "Text for ned of page",
+        "blocks": [
+          {
+            "title": "1st block title",
+            "text": "1st block text"
+          },
+          {
+            "title": "2nd block title",
+            "text": "2nd block text"
+          },
+          {
+            "title": "3rd block title",
+            "text": "3rd block text"
+          },
+          {
+            "title": "4th block title",
+            "text": "4th block text"
+          },
+          {
+            "title": "5th block title",
+            "text": "5th block text"
+          },
+          {
+            "title": "6th block title",
+            "text": "6th block text"
+          }
+        ]
+      }
+    ]
+  },
+  "set_role": "Set role",
+  "roles": {
+    "project_admin": "Project admin",
+    "ulpan_admin": "Ulpan admin",
+    "enrolee": "Enrolee",
+    "student": "Student",
+    "teacher": "Teacher"
+  },
+  "states": {
+    "active":"Active",
+    "await_review_by_ulpan": "Await review by ulpan",
+    "await_to_choose_ulpan": "Await to choose ulpan",
+    "await_email_confirmation": "Await email confirmation",
+    "on_vacation": "On vacation",
+    "banned": "Suspended",
+    "rejected_by_ulpan": "Rejected by ulpan",
+    "dialing_in_progress": "Dialing in progress",
+    "paused_dialing": "Paused dialing"
+  },
+  "validate": {
+    "star_fields": "Fields marked with an asterisk (*) are required",
+    "other_field": "This field is empty",
+    "with_entity": "The field '{{entity}}' is required"
+  },
+  "pages": {
+    "home": {
+      "header": {
+        "about_us": "About us"
+      },
+      "footer": {
+        "app_privacy_statement": {
+          "label": "App privacy statement"
+        }
+      }
+    },
+    "settings": {
+      "language": "Interface language",
+      "hebrew_font_style": "Hebrew font style",
+      "hebrew_font_size": "Hebrew font size"
+    },
+    "recovery_password": {
+      "title": "Recovery password",
+      "sub_title": "Enter your new password"
+    },
+    "account_recovery": {
+      "title": "Account recovery",
+      "description": "Your account is under deletion. If you want to restore your account then just click the button.",
+      "recovery_button": {
+        "label": "Recovery"
+      }
+    },
+    "activated_email": {
+      "title": "Your email has already been activated.",
+      "description": "To enter your account, go to the login page.",
+      "buttons": {
+        "redirect": {
+          "label": "Go to the login page",
+          "tooltip": "Press to go to the login page"
+        }
+      }
+    },
+    "auth": {
+      "login": {
+        "title": "Log in",
+        "driver_title": "Or log in with",
+        "forgot_password": "Forgot password",
+        "form": {
+          "inputs": {
+            "email": "E-mail",
+            "password": "Password"
+          },
+          "validate": {
+            "empty_field": "Please fill in the email and password fields",
+            "email": "Please enter a valid email address.",
+            "password": "Please input your password!",
+            "password_min_length": "Enter a line of at least six numbers."
+          }
+        },
+        "buttons": {
+          "submit": "Log in",
+          "redirect": "Register",
+          "home_redirect": "Create account"
+        },
+        "tooltips": {
+          "buttons": {
+            "submit": "Press to log in",
+            "redirect": "Press to go to the registration page"
+          }
+        }
+      },
+      "register": {
+        "title": "Sign up",
+        "form": {
+          "inputs": {
+            "email": "E-mail",
+            "password": "Password",
+            "confirm_password": "Confirm password",
+            "have_read_agreement": {
+               "i_have_read": "I have read",
+               "agreement": "agreement"
+            }
+          },
+          "validate": {
+            "email": "Please enter a valid email address",
+            "password": "Please input your password",
+            "all_rule": "The password must comply with the rules",
+            "agreement": "You must accept the terms of the agreement",
+            "confirm_password": "Please confirm password",
+            "password_min_length": "Enter a line of at least six numbers",
+            "lowercase_rule": "lowercase character (a-z) is required",
+            "special_symbols_ryle": "one special character is required (!:@#$%^&*)",
+            "uppercase_rule": "one uppercase character (A-Z) is required",
+            "numeric_symbol_rule": "one digit is required (0-9)",
+            "confirm": "Passwords are not matching"
+          }
+        },
+        "buttons": {
+          "submit": "Sign up",
+          "redirect": "I have an account"
+        },
+        "tooltips": {
+          "buttons": {
+            "submit": "Press to registration",
+            "redirect": "Press to go to the login page"
+          }
+        }
+      },
+      "social": {
+        "divider": "Or via options",
+        "tooltips": {
+          "apple": "Press to log in via Apple",
+          "google": "Press to log in via Google",
+          "vkontakte": "Press to log in via Vkontakte",
+          "facebook": "Press to log in via Facebook"
+        }
+      }
+    },
+    "check_mail": {
+      "title": "To activate your account, confirm your e-mail",
+      "description": "A letter was sent automatically. If you have not received the letter, you can send it again or return to the registration page."
+    },
+    "choose_ulpan": {
+      "is_one_ulpan": "Register in ulpan",
+      "tooltips": {
+        "card": "Press to select ulpan"
+      },
+      "description": "To register in the ulpan, enter the following data:"
+    },
+    "profile": {
+      "personal_account_settings": {
+        "title": "Account settings",
+        "socials": {
+          "title": "Socials"
+        },
+        "remove_account": {
+          "title": "Account deleting",
+          "button": {
+            "label": "Remove",
+            "tooltip": "Are you sure you want to delete your account?"
+          }
+        }
+      },
+      "change_pass": {
+        "show_button": {
+          "label": "Password",
+          "tooltip": "Press to open the change form your password"
+        },
+        "title": "Change password",
+        "fields": {
+          "password": "Password",
+          "confirm_password": "Confirm password",
+          "validate": {
+            "password": "Please input your password!",
+            "confirm_password":"Please confirm password!",
+            "password_min_length": "Enter a line of at least six numbers."
+          }
+        },
+        "buttons": {
+          "apply": "Apply",
+          "tooltips": {
+            "apply": "Press to change password"
+          }
+        },
+        "messages": {
+          "success": "Password changed successfully",
+          "failed": "Password is not change"
+        }
+      },
+      "change_fields": {
+        "show_button": {
+          "label": "Edit profile",
+          "tooltip": "Press to open the change form your profile information"
+        },
+        "description": "If you clear the field, the previous value will be used."
+      },
+      "social": {
+        "google": "You are logged in via Google",
+        "apple": "You are logged in via Apple",
+        "vk": "You are logged in via Vkontakte",
+        "facebook": "You are logged in via Facebook",
+        "tooltips": {
+          "any": "Press to open the social network page in a new tab"
+        }
+      },
+      "main": {
+        "buttons": {
+          "edit": {
+            "label": "Edit"
+          }
+        }
+      }
+    },
+    "user_agreement": {
+      "title": "User Agreement",
+      "button": "Save"
+    },
+    "list_of_users": {
+      "tooltips": {
+        "social": {
+          "google": "This user is authorized via Google",
+          "apple": "This user is authorized via Apple",
+          "enable": "Open the social network page in a new tab",
+          "disable": "The user is not connected through this social network"
+        },
+        "buttons": {
+          "updateDispalayData": "Update table data"
+        }
+      }
+    },
+    "footnote": {
+      "new": {
+        "title": "New footnote"
+      },
+      "params": {
+        "footnotesParam": {
+          "label": "Footnote params",
+          "tooltip": "Footnote params"
+        },
+        "editFootnotesParam": {
+          "label": "Show all footnotes params",
+          "tooltip": "Press to show all footnotes params"
+        },
+        "showWithoutNikkudot": {
+          "label": "Show phrase in hebrew without nikkudot",
+          "tooltip": "Press to show phrase in hebrew without nikkudot"
+        },
+        "showAllFields": {
+          "label": "Show all fields",
+          "tooltip": "Press to show all fields of meaning"
+        }
+      },
+      "searcher_by_word": {
+        "title": "Search footnotes by",
+        "tooltip": "Click on the button of the found footnote to select it for display to students",
+        "empty": {
+          "description": "No footnotes found. You can create a new footnote or change your search request."
+        },
+        "buttons": {
+          "choose": {
+            "label": "Select",
+            "tooltip": "Press to select this footnote"
+          }
+        }
+      },
+      "form": {
+        "word": {
+          "label": "Phrase in Hebrew",
+          "tooltip": "Enter the phrase in Hebrew",
+          "he": {
+            "label": "Phrase in hebrew without nikkudot",
+            "placeholder": "Enter phrase in hebrew without nikkudot"
+          },
+          "he_nikkudot": {
+            "label": "Phrase in hebrew with nikkudot",
+            "placeholder": "Enter phrase in hebrew with nikkudot"
+          }
+        },
+        "wordMeaning": {
+          "label": "Phrase meaning",
+          "tooltip": "Enter phrase meaning",
+          "en": {
+            "label": "Translation to English",
+            "placeholder": "Enter translation to English"
+          },
+          "ru": {
+            "label": "Translation to Russian",
+            "placeholder": "Enter translation to Russian"
+          },
+          "fr": {
+            "label": "Translation to French",
+            "placeholder": "Enter translation to French"
+          },
+          "he": {
+            "label": "Description of the phrase without nikkudot",
+            "placeholder": "Enter description of the phrase without nikkudot"
+          },
+          "he_nikkudot": {
+            "label": "Description of the phrase with nikkudot",
+            "placeholder": "Enter description of the phrase with nikkudot"
+          }
+        },
+        "externalReference": {
+          "label": "External reference",
+          "tooltip": "Enter footnote link"
+        },
+        "audio": {
+          "label": "Audio",
+          "tooltip": "Select audio file for footnote"
+        },
+        "buttons": {
+          "upload_or_record": {
+            "label": "Upload or record audio",
+            "tooltip": "Press to open the upload or record form"
+          },
+          "learn_more": {
+            "label": "Learn more"
+          }
+        }
+      }
+    },
+    "footnote_list": {
+      "controls": {
+        "create": {
+          "create_and_close": "Create and close",
+          "create_and_open_new_form": "Create and open a new form"
+        },
+        "search": {
+          "input": "Enter hebrew words to find"
+        },
+        "create_new": "Add new footnote",
+        "delete": "Delete",
+        "apply": "Apply",
+        "edit": "Edit",
+        "edit_cancel": "Cancel",
+        "show_all_fields": "Show all fields",
+        "show_trash_footnotes": "Show footnotes in the Recycle bin",
+        "hide_trash_footnotes": "Hide footnotes in the Recycle bin",
+        "popconfirm": {
+          "delete": {
+            "title": "Are you sure you want to delete this footnote?",
+            "yes": "Yes, delete this footnote",
+            "no": "No, cancel"
+          }
+        },
+        "tooltips": {
+          "create_new": "Press to open the footnote creation form",
+          "delete": "Delete this to footnote",
+          "apply": "Apply changes to this footnote",
+          "edit": "Edit this to footnote",
+          "edit_cancel": "Cancel editing to this footnote",
+          "claer": "Reset options",
+          "meaning": {
+            "ru": "Show russian version meaning",
+            "en": "Show english version meaning",
+            "fr": "Show french version meaning"
+          }
+        }
+      },
+      "details": {
+        "titles": {
+          "meaning": "Meaning",
+          "author": "Author",
+          "controls": "controls",
+          "editing": "Editing a footnote"
+        },
+        "alerts": {
+          "from_description": "When you clear a field, its past value will be retained."
+        }
+      },
+      "table": {
+        "title": {
+          "word": "Hebrew phrase",
+          "author": "Author",
+          "word_meaning": {
+            "ru": "Russian version",
+            "en": "English version",
+            "fr": "France version"
+          },
+          "create_at": "Create at",
+          "updated_at": "Updated at",
+          "audio": "Audio",
+          "translation_option": "Variant of meaning",
+          "supported_traslations": "Supported translations"
+        }
+      }
+    },
+    "lessons": {
+      "title": {
+        "template": "Lessons templates",
+        "lesson": "Lessons",
+        "exam": "Exams"
+      },
+      "subtitle": {
+        "template": "List of lessons templates",
+        "lesson": "List of lessons",
+        "exam": "List of exams"
+      },
+      "create": {
+        "title": "Create new lesson",
+        "tooltip": "Press to create new lesson"
+      },
+      "actions": {
+        "create_lesson_based": {
+          "lesson": {
+            "label": "Create lesson based on this lesson",
+            "tooltip": "Press to create lesson based on this lesson"
+          },
+          "template": {
+            "label": "Create lesson based on this template",
+            "tooltip": "Press to create lesson based on this template"
+          },
+          "exam": {
+            "label": "Create lesson based on this exam",
+            "tooltip": "Press to create lesson based on this exam"
+          },
+          "entity": {
+            "based_on_sub_entity": "Create {{entity}} based on this {{subEntity}}"
+          }
+        }
+      }
+    },
+    "lesson": {
+      "new": {
+        "title": "New lesson",
+        "simple": "New {{entity}}"
+      },
+      "selectTask": {
+        "title": "Select task"
+      },
+      "form": {
+        "preview": {
+          "label": "Preview",
+          "tooltip": "Preview lesson as it shown for students"
+        },
+        "previewDisabled": {
+          "label": "Preview (disabled)",
+          "tooltip": "Preview will be available after lesson save"
+        },
+        "additionalActions": {
+          "label": "Additional actions",
+          "tooltip": "Additional lesson actions to interact with lesson"
+        },
+        "expertMode": {
+          "label": "Expert mode",
+          "tooltip": "Enable to edit additional params of lesson and perform additional actions"
+        },
+        "lessonParams": {
+          "label": "Lesson params",
+          "tooltip": "Change necessary lesson params"
+        },
+        "editLessonParams": {
+          "label": "Edit lesson params",
+          "tooltip": "Enable to change lesson params"
+        },
+        "accessPeriod": {
+          "label": "Access period",
+          "tooltip": "Select access period for lesson"
+        },
+        "studentsNativeLanguages": {
+          "label": "Student native languages",
+          "tooltip": "Students with any native language, that is in list, can take a part in the lesson",
+          "placeholder": "Select languages, which are native for students of the lesson"
+        },
+        "tasks": {
+          "label": "Tasks",
+          "errors": {
+            "MemoryExercise": {
+              "text_card_is_empty": "Text card is empty.",
+              "set_title_is_empty": "Set title is empty.",
+              "set_card_length": "Set have not correctly length.",
+              "media_card_is_empty": "Media card is empty."
+            }
+          },
+          "taskType": {
+            "TextTask": "Text task",
+            "GameTask": "Game task"
+          },
+          "new": {
+            "title": "New task #{{num}}"
+          },
+          "text": {
+            "title": "Text task",
+            "tooltip": "Task contains text and exercises for it"
+          },
+          "audio": {
+            "title": "Audio task",
+            "tooltip": "Task contains audio and exercises for it"
+          },
+          "video": {
+            "title": "Video task",
+            "tooltip": "Task contains video and exercises for it"
+          },
+          "content": {
+            "en": {
+              "label": "Text in English",
+              "placeholder": "Enter text in English"
+            },
+            "ru": {
+              "label": "Text in Russian",
+              "placeholder": "Enter text in Russian"
+            },
+            "fr": {
+              "label": "Text in French",
+              "placeholder": "Enter text in French"
+            },
+            "he": {
+              "label": "Text in Hebrew without nikkudot",
+              "placeholder": "Enter text in Hebrew without nikkudot"
+            },
+            "he_nikkudot": {
+              "label": "Text in Hebrew",
+              "placeholder": "Enter text in Hebrew"
+            },
+            "not_translation": {
+              "label": "There is no translation for this text"
+            },
+            "actions": {
+              "hide": {
+                "label": "Hide paragraph in lesson"
+              },
+              "show": {
+                "label": "Show paragraph in lesson"
+              }
+            }
+          },
+          "exercises": {
+            "messages": {
+              "none_create_lesson": "To add exercises, you must first save the lesson."
+            },
+            "types": {
+              "AmericanQuestionsExercise": {
+                "title": "Multiple choice questions"
+              },
+              "GiveTitleTextExercise": {
+                "title": "Give the text a title"
+              },
+              "ExplainIdeaExercise": {
+                "title": "Write in your own words"
+              },
+              "SupplementTextExercise": {
+                "title": "Supplement text"
+              },
+              "OrderParagraphsInTextExercise": {
+                "title": "Put the paragraphs in the correct order"
+              },
+              "InsertMissingWordsExercise": {
+                "title": "Fill in the blanks"
+              },
+              "SelectMissingWordsExercise": {
+                "title": "Choose the missing word"
+              },
+              "ChooseWordsByCategoriesExercise": {
+                "title": "Choose words by categories"
+              },
+              "TrueFalseQuestionsExercise": {
+                "title": "True/False questions"
+              },
+              "CollectSentencesFromWordsExercise": {
+                "title": "Put the words of the sentence in the correct order",
+                "description": "Select words to form a sentence."
+              },
+              "SupplementSentencesExercise": {
+                "title": "Supplement sentences"
+              },
+              "TextQuestionsExercise": {
+                "title": "Text question"
+              },
+              "EssayExercise": {
+                "title": "Essay"
+              },
+              "MemoryExercise": {
+                "title": "Memory"
+              }
+            },
+            "writtenText": {
+              "title": "Set description",
+              "description": "Describe the guessed sets in Hebrew. This part of the exercise is optional."
+            },
+            "essayThemeTitleList": {
+              "he_nikkudot": {
+                "label": "Essay title in Hebrew with nikkudot"
+              },
+              "he": {
+                "label": "Essay title in Hebrew without nikkudot"
+              }
+            },
+            "essayThemeTitle": {
+              "label": "Essay theme"
+            },
+            "total_score": {
+              "label": "Total points"
+            },
+            "questions": {
+              "label": "Question",
+              "item_label": "Question #",
+              "he_nikkudot": {
+                "label": "Question in Hebrew with nikkudot"
+              },
+              "he": {
+                "label": "Question in Hebrew without nikkudot"
+              },
+              "question": {
+                "he_nikkudot": {
+                  "label": "Question in Hebrew with nikkudot"
+                },
+                "he": {
+                  "label": "Question in Hebrew without nikkudot"
+                }
+              },
+              "wrongAnswers": {
+                "he_nikkudot": {
+                  "label": "Wrong answer in Hebrew with nikkudot"
+                },
+                "he": {
+                  "label": "Wrong answer in Hebrew without nikkudot"
+                }
+              },
+              "correctAnswer": {
+                "he_nikkudot": {
+                  "label": "Correct answer in Hebrew with nikkudot"
+                },
+                "he": {
+                  "label": "Correct answer in Hebrew without nikkudot"
+                }
+              },
+              "sentence": {
+                "he_nikkudot": {
+                  "label": "Original sentence in Hebrew with nikkudot"
+                },
+                "he": {
+                  "label": "Original sentence in Hebrew without nikkudot"
+                }
+              }
+            },
+            "categories": {
+              "select": {
+                "category": "Select a category",
+                "word": "Select words for the category"
+              },
+              "selected": {
+                "word": "Selected words for category: {{category}}"
+              }
+            },
+            "choiceVariables": {
+              "teacher": "Teacher's choice",
+              "student": {
+                "correct": {
+                  "for_teacher": "Choosing the right student",
+                  "for_student": "Right choice"
+                },
+                "incorrect": {
+                  "for_teacher": "Wrong student choice",
+                  "for_student": "Incorrect choice"
+                }
+              }
+            },
+            "isStart": {
+              "sentence": {
+                "short": {
+                  "true": "Beginning of the sentence",
+                  "false": "End of the sentence"
+                },
+                "long": {
+                  "true": "Enter the beginning of the sentence to be displayed",
+                  "false": "Enter the end of the sentence to be displayed"
+                },
+                "student": {
+                  "long": {
+                    "true": "Finish writing sentence",
+                    "false": "Beginning writing sentence"
+                  }
+                },
+                "teacher": {
+                  "long": {
+                    "true": "Finish writing sentence",
+                    "false": "Beginning writing sentence"
+                  }
+                }
+              },
+              "text": {
+                "short": {
+                  "true": "Beginning of the text",
+                  "false": "End of the text"
+                },
+                "long": {
+                  "true": "Select the beginning of the text to be displayed",
+                  "false": "Select the end of the text to be displayed"
+                },
+                "student": {
+                  "long": {
+                    "true": "Finish writing text",
+                    "false": "Beginning writing text"
+                  }
+                },
+                "teacher": {
+                  "long": {
+                    "true": "Finish writing text",
+                    "false": "Beginning writing text"
+                  }
+                }
+              }
+            },
+            "original_text": "Original text",
+            "use_paragraph_in_exercise": {
+              "label": "Use paragraph in exercise"
+            },
+            "question": {
+              "title": {
+                "entity_and_number": "{{entity}} #{{number}}"
+              },
+              "label": "Question",
+              "tooltip": "Enter question",
+              "he_nikkudot": {
+                "label": "Question with nikkudot",
+                "tooltip": "Enter question with nikkudot"
+              },
+              "he": {
+                "label": "Question without nikkudot",
+                "tooltip": "Enter question without nikkudot"
+              }
+            },
+            "result_sentence": {
+              "label": "Result sentence"
+            },
+            "suggested_words": {
+              "label": "Suggested words"
+            },
+            "correct_answer": {
+              "label": "Correct answer",
+              "tooltip": "Enter correct answer",
+              "he_nikkudot": {
+                "label": "Correct answer with nikkudot",
+                "tooltip": "Enter correct answer with nikkudot"
+              },
+              "he": {
+                "label": "Correct answer without nikkudot",
+                "tooltip": "Enter correct answer without nikkudot"
+              }
+            },
+            "actions": {
+              "finish": {
+                "label": "Finish the exercises"
+              },
+              "send_answer": {
+                "label": "Save exercise answer",
+                "sending": "Answer being saved"
+              }
+            },
+            "sentence": {
+              "title": "Original sentence",
+              "simple": "Original"
+            },
+            "distinction": {
+              "title": "Distinction"
+            },
+            "isTrue": {
+              "label": "Is it true?",
+              "tooltip": "Select right answer"
+            },
+            "wrong_answers": {
+              "label": "Wrong answers",
+              "tooltip": "Enter wrong answers",
+              "he_nikkudot": {
+                "label": "Wrong answers with nikkudot",
+                "tooltip": "Enter wrong answers with nikkudot"
+              },
+              "he": {
+                "label": "Wrong answers without nikkudot",
+                "tooltip": "Enter wrong answers without nikkudot"
+              }
+            },
+            "input": {
+              "placeholder": "Enter text in Hebrew"
+            },
+            "student_answer": {
+              "title": "Student answer",
+              "simple": "Answer"
+            }
+          },
+          "title": {
+            "label": "Task title",
+            "placeholder": "Enter task title in hebrew (without nikkudot, if selected) and selected languages",
+            "en": {
+              "label": "Task title in English",
+              "placeholder": "Enter task title in English"
+            },
+            "ru": {
+              "label": "Task title in Russian",
+              "placeholder": "Enter task title in Russian"
+            },
+            "fr": {
+              "label": "Task title in French",
+              "placeholder": "Enter task title in French"
+            },
+            "he": {
+              "label": "Task title in Hebrew without nikkudot",
+              "placeholder": "Enter task title in Hebrew without nikkudot"
+            },
+            "he_nikkudot": {
+              "label": "Task title in Hebrew",
+              "placeholder": "Enter task title in Hebrew"
+            }
+          },
+          "description": {
+            "label": "Task description",
+            "placeholder": "Enter task description in hebrew (without nikkudot, if selected) and selected languages",
+            "en": {
+              "label": "Task description in English",
+              "placeholder": "Enter task description in English"
+            },
+            "ru": {
+              "label": "Task description in Russian",
+              "placeholder": "Enter task description in Russian"
+            },
+            "fr": {
+              "label": "Task description in French",
+              "placeholder": "Enter task description in French"
+            },
+            "he": {
+              "label": "Task description in Hebrew without nikkudot",
+              "placeholder": "Enter task description in Hebrew without nikkudot"
+            },
+            "he_nikkudot": {
+              "label": "Task description in Hebrew",
+              "placeholder": "Enter task description in Hebrew"
+            }
+          }
+        },
+        "addTask": {
+          "tooltip": "Add task"
+        },
+        "showWithoutNikkudot": {
+          "label": "Show hebrew with nikkudot",
+          "tooltip": "Disable to show hebrew content without nikkudot"
+        },
+        "title": {
+          "label": "Lesson title",
+          "tooltip": "Enter the lesson name in Hebrew (with vocalizations if enabled) and selected languages",
+          "placeholder": "Enter lesson title in hebrew (without nikkudot, if selected) and selected languages",
+          "en": {
+            "label": "Lesson title in English",
+            "placeholder": "Enter lesson title in English"
+          },
+          "ru": {
+            "label": "Lesson title in Russian",
+            "placeholder": "Enter lesson title in Russian"
+          },
+          "fr": {
+            "label": "Lesson title in French",
+            "placeholder": "Enter lesson title in French"
+          },
+          "he": {
+            "label": "Lesson title in Hebrew without nikkudot",
+            "placeholder": "Enter lesson title in Hebrew without nikkudot"
+          },
+          "he_nikkudot": {
+            "label": "Lesson title in Hebrew",
+            "placeholder": "Enter lesson title in Hebrew"
+          }
+        }
+      }
+    },
+    "answers": {
+      "exercises": {
+        "memory": {
+          "guessed_sets": "Guessed sets",
+          "not_guessed_sets": "Not guessed sets"
+        }
+      },
+      "table": {
+        "student": {
+          "label": "Student",
+          "placeholder": "Name and surname of the student"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Exercise status"
+        },
+        "task_type": {
+          "label": "Task type",
+          "placeholder": "Task type"
+        },
+        "lesson": {
+          "label": "Lesson",
+          "placeholder": "Lesson title"
+        },
+        "group": {
+          "label": "Group",
+          "placeholder": "The lesson belongs to this group"
+        },
+        "lesson_openFrom": {
+          "label": "Lesson start date"
+        },
+        "is_checked": {
+          "label": "Check status",
+          "unchecked": {
+            "tooltip": "Answers not verified"
+          },
+          "checked": {
+            "tooltip": "Answers verified"
+          }
+        },
+        "total_points": {
+          "label": "Total points",
+          "empty": {
+            "lesson": "Available for exam only",
+            "exam": "Exam not verified"
+          }
+        }
+      },
+      "filter": {
+        "buttons": {
+          "filter": {
+            "label": "Filter"
+          },
+          "clear_filter": {
+            "label": "Clear filter"
+          }
+        },
+        "params": {
+          "lesson": {
+            "label": "Lesson",
+            "tooltip": "Press to filter by lesson name"
+          },
+          "lesson.openFrom": {
+            "label": "Lesson start date",
+            "tooltip": "Press to filter by lesson start date"
+          },
+          "student": {
+            "label": "Student",
+            "tooltip": "Press to filter by student name"
+          },
+          "checkState": {
+            "label": "Check status",
+            "tooltip": "Press to filter by check status"
+          }
+        }
+      }
+    },
+    "answer": {
+      "table": {
+        "main": "Answers",
+        "lessons": "Lessons",
+        "date": "Start lesson date",
+        "group": "Groups",
+        "students": "Students"
+      },
+      "form": {
+        "comment": {
+          "label": "Comment to answer",
+          "placeholder": "Enter comment to answer"
+        },
+        "actions": {
+          "download_pdf": {
+            "label": "Download answers"
+          },
+          "restart": {
+            "label": "Restart exercises"
+          },
+          "send_by_email": {
+            "label": "Send by email"
+          },
+          "save_answer": {
+            "label": "Finish checking the answers"
+          },
+          "add_comment": {
+            "label": "Add comment"
+          },
+          "go_to_lesson": {
+            "label":"Go to lesson"
+          }
+        },
+        "answer": {
+          "correct": {
+            "label": "Correct"
+          },
+          "incorrect": {
+            "label": "Incorrect"
+          },
+          "unchecked": {
+            "label": "Unchecked"
+          }
+        }
+      },
+      "student_answers": {
+        "title": "Student answers",
+        "single": "Student answer",
+        "my_answer": "My answer"
+      },
+      "original_text": {
+        "title": "Original"
+      },
+      "translation_text": {
+        "title": "Translation"
+      },
+      "correct": {
+        "label": "Correct",
+        "single": "Correct answer",
+        "boolean": "True"
+      },
+      "incorrect": {
+        "label": "Incorrect",
+        "single": "Incorrect answer",
+        "boolean": "False",
+        "with_correctAnswer": "Incorrect (correct answer: {{correctAnswer}})"
+      },
+      "rating": "Points"
+    }
+  },
+  "errors": {
+    "required": "{{fieldName}} is required",
+    "bad_request": "The request failed"
+  },
+  "cards": {
+    "lesson": {
+      "supportedLanguages": "Supported languages",
+      "title_en": "English title",
+      "title_ru": "Russian title",
+      "title_fr": "French title"
+    }
+  },
+  "enums": {
+    "MediaContentVisibleForStudent": {
+      "label": "Displaying media for the student",
+      "tooltip": "Select whether to display images and audio files in the exam, for the student",
+      "SHOW": {
+        "title": "Show"
+      },
+      "HIDE": {
+        "title": "Hide"
+      }
+    },
+    "lessonType": {
+      "label": "Lesson type",
+      "tooltip": "Select lesson type (template, exam or lesson)\n$t(enums.lessonType.TEMPLATE.title): $t(enums.lessonType.TEMPLATE.tooltip)\n$t(enums.lessonType.EXAM.title): $t(enums.lessonType.EXAM.tooltip)\n$t(enums.lessonType.lesson.title): $t(enums.lessonType.lesson.tooltip)",
+      "TEMPLATE": {
+        "title": "Lesson template",
+        "tooltip": "Lesson template can't be sent to students to take part in it. Template lesson can be used only for other lessons creating"
+      },
+      "LESSON": {
+        "title": "Lesson",
+        "tooltip": "Default lesson. Can be sent to students to take part in it. It also can be used to create other lessons using this one as template"
+      },
+      "EXAM": {
+        "title": "Exam",
+        "tooltip": "Exam"
+      }
+    },
+    "AccessType": {
+      "label": "Access type",
+      "tooltip": "Select lesson access type (by link or group)\n$t(enums.AccessType.LINK.title): $t(enums.AccessType.LINK.tooltip)\n$t(enums.AccessType.GROUP.title): $t(enums.AccessType.GROUP.tooltip)",
+      "LINK": {
+        "title": "By link",
+        "tooltip": "Students can access to lesson only by link"
+      },
+      "GROUP": {
+        "title": "By group",
+        "tooltip": "Students can access to lesson if they belong to group"
+      }
+    },
+    "TimeOfDay": {
+      "label": "Time of day",
+      "short_label": "Time",
+      "tooltip": "Select time of day \n$t(enums.TimeOfDay.MORNING.title): $t(enums.TimeOfDay.MORNING.tooltip)\n$t(enums.TimeOfDay.EVENING.title): $t(enums.TimeOfDay.EVENING.tooltip)",
+      "MORNING": {
+        "title": "Morning",
+        "tooltip": "From 9:00AM to 4:00PM"
+      },
+      "EVENING": {
+        "title": "Evening",
+        "tooltip": "From 4:00PM to 9:00PM"
+      }
+    },
+    "HebrewProficiency": {
+      "label": "Hebrew proficiency",
+      "tooltip": "Select hebrew proficiency \n$t(enums.HebrewProficiency.ALEF.title): $t(enums.HebrewProficiency.ALEF.tooltip)\n$t(enums.HebrewProficiency.BET.title): $t(enums.HebrewProficiency.BET.tooltip)\n$t(enums.HebrewProficiency.GIMEL.title): $t(enums.HebrewProficiency.GIMEL.tooltip)\n$t(enums.HebrewProficiency.DALET.title): $t(enums.HebrewProficiency.DALET.tooltip)",
+      "ALEF": {
+        "title": "א",
+        "tooltip": "Alef"
+      },
+      "BET": {
+        "title": "ב\u200E",
+        "tooltip": "Bet"
+      },
+      "GIMEL": {
+        "title": "ג",
+        "tooltip": "Gimel"
+      },
+      "DALET": {
+        "title": "ד",
+        "tooltip": "Dalet"
+      }
+    },
+    "answersStatus": {
+      "performed": {
+        "title": "The student has not finished the exercises"
+      },
+      "created": {
+        "title": "The student has started the exercises"
+      },
+      "finished": {
+        "title": "The student has finished the exercises"
+      }
+    },
+    "checkWay": {
+      "automatically": {
+        "title": "Automatic check"
+      },
+      "manually": {
+        "title": "Manual check"
+      }
+    }
+  },
+  "components": {
+    "avatar": {
+      "controls": {
+        "upload": {
+          "label": "Upload avatar",
+          "tooltip": "Press to open upload form"
+        }
+      },
+      "modal": {
+        "title": "Upload avatar"
+      },
+      "placeholder": {
+        "label": "Avatar is not uploaded"
+      }
+    },
+    "audio": {
+      "simple" : {
+        "error": {
+          "tooltip": "Audio file is missing"
+        },
+        "play": {
+          "tooltip": "Play"
+        },
+        "pause": {
+          "tooltip": "Pause"
+        }
+      },
+      "recorder": {
+        "title": "Upload audio",
+        "panels": {
+          "record_panel": {
+            "title": {
+              "label": "Audio recording"
+            }
+          },
+          "upload": {
+            "title": {
+              "label": "Upload audio"
+            }
+          }
+        },
+        "recording": {
+          "tooltip": "Press to start recording"
+        },
+        "stop_recording": {
+          "tooltip": "Press to stop recording"
+        },
+        "play": {
+          "label": "Play",
+          "tooltip": "Press to play"
+        },
+        "pause": {
+          "label": "Pause",
+          "tooltip": "Press to pause"
+        },
+        "upload": {
+          "label" : "Save",
+          "tooltip": "Press to save"
+        },
+        "cancel": {
+          "label": "Cancel",
+          "tooltip": "Press to remove the recorded audio file"
+        }
+      }
+    },
+    "filter": {
+      "title": "Filter",
+      "buttons": {
+        "filter": {
+          "show": "Show filter",
+          "hide": "Hide filter",
+          "on_filter": "Filter"
+        },
+        "on_clear": "Clear"
+      }
+    },
+    "calendar": {
+      "titles": {
+        "label": "$t(entities.{{entity}}) for {{date}}"
+      },
+      "filter": {
+        "title": "Filter",
+        "buttons": {
+          "visible": {
+            "show": "Show filter",
+            "hide": "Hide filter"
+          },
+          "cancel": {
+            "label": "Cancel",
+            "tooltip": "Press to canceling filtering"
+          }
+        },
+        "type": {
+          "label": "Lesson type",
+          "tooltip": " Press to change type of lesson"
+        },
+        "timeOfDay": {
+          "label": "Time of day",
+          "tooltip": "Press to change time of day"
+        }
+      },
+      "details": {
+        "actions": {
+          "show": {
+            "label": "Show",
+            "tooltip": {
+              "new_tab": "Show {{entity}} in new tab",
+              "this_tab": "Show {{entity}}"
+            }
+          },
+          "go_to_answer": {
+            "label": "Go to answer",
+            "tooltip": "Press to go to the answer for this lesson"
+          }
+        }
+      }
+    },
+    "popconfirm": {
+      "titles": {
+        "delete": "Are you sure you want to delete?"
+      },
+      "ok": "Yes, I'm sure",
+      "cancel": "No, cancel"
+    },
+    "table": {
+      "tooltips": {
+        "updateDisplayDataTable": "Update data",
+        "details": "Show details"
+      },
+      "columns": {
+        "tooltips": {
+          "trigger_desc": "Press to sort by descending",
+          "trigger_asc": "Press to sort by ascending",
+          "cancel_sort": "Press to cancel sort"
+        }
+      }
+    },
+    "ui": {
+      "file_upload_component": {
+        "click": "Press to upload",
+        "messages": {
+          "successfully": "File has been uploaded successfully",
+          "failed": "Upload failed",
+          "img_filter": "You can only upload JPG/PNG file!"
+        },
+        "tooltip": {
+          "click": "Press to go to the upload file selection"
+        }
+      }
+    }
+  },
+  "ulpansfields": {
+    "name": "Uplan name",
+    "logoFileId": "Logo",
+    "ulpanState": "State",
+    "short_ulpan_description": "Short description",
+    "full_ulpan_description": "Description",
+    "disable": "Disable",
+    "enable": "Enable",
+    "details": "Details",
+    "fields": {
+      "title": "Ulpan fields",
+      "value": {
+        "en": "English version",
+        "ru": "Russian version",
+        "fr": "French version"
+      },
+      "type": "Type"
+    }
+  },
+  "user": {
+    "form": {
+      "email": "E-mail",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "firstname": "Name",
+      "surname": "Surname",
+      "country": "Country",
+      "nativeLanguage": "Native language",
+      "birthday": "Birthday",
+      "address": "Address",
+      "phone": "Phone",
+      "profession": "Profession",
+      "passportId": "Passport ID",
+      "repatriationDate": "Date of repatriation",
+      "hebrewProficiency": "Hebrew proficiency",
+      "statusInCountry": "Status in country"
+    },
+    "details": {
+      "personal": "Personal",
+      "full_name": "Full name",
+      "ulpan": "Ulpan",
+      "control": "Control",
+      "current": {
+        "role": "Current role",
+        "state": "Current status"
+      }
+    },
+    "button": {
+      "details": "Details"
+    },
+    "controls": {
+      "disable": "Deactivate",
+      "enable": "Activate",
+      "accept": "Accept",
+      "apply": "Apply",
+      "reject": "Reject",
+      "tooltips": {
+        "disable": "Press to deactivate",
+        "enable": "Press to activate",
+        "apply": "Press to apply",
+        "accept": "Press to accept",
+        "reject": "Press to reject",
+        "change_state": "Press to change status",
+        "change_role": "Press to change role"
+      }
+    },
+    "search": {
+      "title": "Enter text to find",
+      "button": "Search"
+    },
+    "registration_titles": {
+      "full_name": "Full name"
+    },
+    "fields": {
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "email":"E-mail",
+      "social": "Social",
+      "status_in_country": "Status in country",
+      "status_in_country_selector": {
+        "none": "No status",
+        "select": "Select your status in country",
+        "repatriate": "Repatriate",
+        "citizen": "Citizen",
+        "tourist": "Tourist",
+        "tooltips": {
+          "none": "This field is required only for people in Israel"
+        }
+      },
+      "passport_id": "Passport ID",
+      "date_of_repatriation": "Date of repatriation",
+      "address": "Address",
+      "phone": "Phone",
+      "profession": "Profession",
+      "other_profession": "Other",
+      "profession_selector": {
+        "select": "Select your profession"
+      },
+      "country": "Country",
+      "country_selector": {
+        "select": "Select the country of your stay"
+      },
+      "state": "Status",
+      "role": "Role",
+      "hebrew_proficiency": "Hebrew proficiency",
+      "province_selector": {
+        "select": "Select proficiency",
+        "upper_intermediate": "Upper intermediate",
+        "intermediate": "Intermediate",
+        "elementary": "Elementary",
+        "beginner": "Beginner"
+      },
+      "native_language": "Native language",
+      "native_language_selector": {
+        "select": "Select native language",
+        "english": "English",
+        "russian": "Russian",
+        "franch": "French"
+      },
+      "birth_day": "Birthday",
+      "placeholders": {
+        "firstname": "Enter your firstname",
+        "lastname": "Enter your lastname",
+        "phone": "Enter your phone",
+        "address": "Enter your address",
+        "passport_id": "Enter your passport ID",
+        "other_profession": "Enter your profession"
+      }
+    }
+  },
+  "profession": {
+    "Medicine": "Medicine",
+    "Psychology": "Psychology",
+    "Pedagogy": "Pedagogy",
+    "Construction": "Construction",
+    "Economics, business, management": "Economics, business, management",
+    "Law": "Law",
+    "Sales": "Sales",
+    "Sport": "Sport",
+    "Art": "Art",
+    "Engineering, technology": "Engineering, technology",
+    "Programming, computers": "Programming, computers",
+    "Other": "Other"
+  },
+  "countries": {
+    "State of Israel": "State of Israel",
+    "Russian Federation": "Russian Federation",
+    "United Kingdom of Great Britain and Northern Ireland": "United Kingdom of Great Britain and Northern Ireland",
+    "United States of America": "United States of America",
+    "French Republic": "French Republic"
+  },
+  "constants": {
+    "size": {
+      "small": "Small",
+      "default": "Default",
+      "large": "Large"
+    },
+    "types": {
+      "any": "Any"
+    }
+  },
+  "placeholders": {
+    "entity": {
+      "select": {
+        "select": "Please select {{entity}}",
+        "add": "Please add {{entity}}"
+      },
+      "input": "Please input {{entity}}"
+    }
+  },
+  "date_format": "YYYY-MM-DD",
+  "time_format": "h:mm a",
+  "tours": {
+    "start_step": "Hello, this is a mini tour of Hebreway: {{entity}}! Here you can familiarize yourself with the functionality of this application.\nTo exit the tour, press the Escape key or click on the cross.",
+    "finish_step": "You have completed the Hebreway: {{entity}} tour!\nTo exit the tour, press the Escape key or click on the cross.",
+    "footnote_from": {
+      "page_header": "These are the buttons to control the footnote",
+      "word": "This is a Hebrew footnote input box",
+      "show_without_nikkudot": "If you want to enter a description without vowels, then click on the switch. \nNote that a field without vows is required, and if you save only a field with vows, a field without vows will be automatically generated.",
+      "word_meaning": "Displayed here are input fields for values in other languages and a value in simplified Hebrew",
+      "audio": "An audio file is displayed here, if it does not exist, then you can download it by clicking the «Download or record audio» button.",
+      "external_reference": "Here you can enter a link to an already existing footnote on another site."
+    },
+    "lesson_form": {
+      "lesson_form_title": "Here you can enter the lesson names.",
+      "text_task_content_edit_from_content": "These fields are for entering a paragraph. The translation is entered on the left, and the original text on the right.",
+      "lesson_form_exercises": "Here you can choose which exercises to include in the lesson.",
+      "text_task_content_edit_from_hide_or_show_paragraph": "You can always hide a paragraph from the student, just press the switch.",
+      "text_task_content_edit_from_add_or_del_paragraph": "If you want to add or remove a paragraph, you should pay attention to these buttons."
+    },
+    "exercises": {
+      "american_questions": {
+        "question": "This is the question for the student.",
+        "correct_answer": "In this field, you must enter the correct answer to the question.",
+        "wrong_answers": "Other answer options are indicated here. Please note that only incorrect options are found here.",
+        "stepper": "This is a switch that allows you to move from one question to another."
+      },
+      "choose_words_by_categories": {
+        "add_category": "Before starting work, you need to add a category. Click and you will see a window for creating a new category.",
+        "selector": "In this field, you can select the category with which you want to work.",
+        "edit_category": "In order to edit a category, just click on this button.",
+        "text": "After choosing a category, select the words that you want to refer to this category by simply clicking with the left mouse button."
+      },
+      "collect_sentences_from_words": {
+        "question": "This is where the original sentence is introduced, which is broken down into words.",
+        "add_question": "Click on this button to add a new sentence to this exercise.",
+        "remove_question": "Click this button to remove the displayed sentence from the exercise.",
+        "stepper": "It is a switch that allows you to move from one sentence to the next."
+      },
+      "essay": {
+        "themes": "The topics that will be presented to the student for selection are displayed here.",
+        "add_theme_item": "Click on this button to add a new topic.",
+        "remove_theme_item": "Click on this button to delete the theme opposite the button."
+      },
+      "explain_idea": {
+        "paragraphs": "All paragraphs of text are displayed here.",
+        "checkbox": "Click to add or remove this paragraph from the exercise."
+      },
+      "give_title_text": {
+
+      },
+      "insert_missing_words": {
+        "text": "It is displayed here, in which you can click on any word in order to mark it as guessed."
+      },
+      "order_paragraphs_in_text": {
+        "paragraphs": "All paragraphs visible to the student are displayed here.",
+        "paragraphs_items": "To set the initial order displayed to the student, drag the paragraph to another position.",
+        "paragraphs_items_control": "Or use the arrows to the right of the paragraph."
+      },
+      "select_missing_words": {
+        "text": "This displays the text that the student will see. When you click on any word, a window for setting these words will open, where you will have to enter the wrong options to select a student or remove the wrong options."
+      },
+      "supplement_sentences": {
+        "sentence": "Enter the beginning or end of a sentence in this field.",
+        "change_type": "Choose how the text you entered will be reflected as the beginning or end of the sentence.",
+        "add_sentence": "If you want to add more offers, click on the 'Add new sentence' button.",
+        "remove_sentence": "If you want to delete the selected offer, click on the 'Remove sentence' button.",
+        "stepper": "It is a switch that allows you to move from one sentence to the next."
+      },
+      "supplement_text": {
+        "text": "The text that needs to be executed is displayed here.",
+        "change_type": "Choose how the selected text will be reflected as the beginning or end of the sentence.",
+        "control": "Click to add or remove this paragraph from the exercise."
+      },
+      "text_questions": {
+        "question": "Enter the question that the student should answer in this field.",
+        "add_question": "Click this button to add a new question.",
+        "remove_question": "Click this button to delete the current question.",
+        "stepper": "It is a switch that allows you to move from one question to another."
+      },
+      "true_false_questions": {
+        "question": "Enter the question that the student should answer in this field.",
+        "answer": "Choose the answer that is correct for this statement.",
+        "add_question": "Click this button to add a new question.",
+        "remove_question": "Click this button to delete the current question.",
+        "stepper": "It is a switch that allows you to move from one question to another."
+      }
+    }
+  }
+}

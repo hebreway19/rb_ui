@@ -1,0 +1,138 @@
+@import "../styles/index.scss";
+
+@font-face {
+  font-family: "Book Antiqua";
+  src: local('Book Antiqua'), url(/fonts/BookAntiqua.ttf) format('truetype');
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-typography a {
+  color: #4285f4 !important;
+}
+
+.ant-typography a:hover {
+  color: #1668e7 !important;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.teacher-exercise-panel .ant-typography a,
+.teacher-exercise-panel .ant-typography a:hover {
+  color: #75ECF9 !important;
+}
+
+.title__header {
+  font-size: 1.2rem;
+}
+
+.sub-title__header {
+  font-size: 1rem;
+}
+
+.icon-button {
+  font-size: 1.2rem !important;
+  padding: 1px 6px !important;
+}
+.icon-audio-button {
+  font-size: 5rem !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  background-color: inherit !important;
+}
+
+.dark .ck-toolbar {
+  background-color: #00000006 !important;
+}
+
+.ck-editor__main:active {
+  border-color: #3ba880 !important;
+}
+
+.dark .ck-content {
+  background-color: #00000026 !important;
+}
+
+.dark .ck {
+  border-color: #303030 !important;
+}
+
+.dark li.ck-list__item {
+  background-color: #202020 !important;
+}
+
+.dark .ck-button:active,
+.dark li.ck-list__item,
+.dark .ck-dropdown__panel {
+  background-color: #202020 !important;
+}
+
+.dark .ck-input,
+.dark .ck-label {
+  background-color: #303030 !important;
+  color: #ffffff !important;
+}
+
+.dark .ck-labeled-field-view__status {
+  color: #ffffff !important;
+}
+
+.dark .ck-toolbar {
+  background-color: #202020f9 !important;
+}
+
+.dark .ck-icon {
+  color: #ffffffd9 !important
+}
+
+.dark .ck-icon:hover {
+  color: #ffffff !important;
+  background-color: #202020 !important;
+}
+
+.dark .ck-button {
+  color: #ffffffd9 !important;
+}
+
+.dark .ck-button:hover {
+  color: #ffffff !important;
+  background-color: #202020 !important;
+}
+
+.display_block > .ant-image {
+  display: block !important;
+  margin-bottom: 8px;
+}
+
+.exercise-question__paragraph > p {
+  margin: 0 !important;
+}
+
+.site-layout-background {
+  color: #ffffff !important;
+  background: linear-gradient(104.91deg, #303144 1.5%, #7A7C89 105.55%) !important;
+}

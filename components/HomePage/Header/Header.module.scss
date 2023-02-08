@@ -1,0 +1,28 @@
+.header {
+  padding-top: 1.5rem;
+  padding-left: 3.75rem;
+  padding-right: 1rem;
+}
+
+.header__divider {
+  width: 22.9375rem;
+
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.5rem !important;
+  letter-spacing: 0.09em !important;
+
+  color: #ffffff !important;
+}
+.header__divider::before,
+.header__divider::after {
+  border-top: none !important;
+  height: 2px !important;
+  margin-top: 11px;
+  background: linear-gradient(269.86deg, #A8FDFF 4.32%, rgba(174, 253, 252, 0.864219) 22.17%, rgba(201, 255, 238, 0.21) 82.2%), linear-gradient(269.86deg, #A8FDFF 4.32%, rgba(174, 253, 252, 0.864219) 22.17%, rgba(201, 255, 238, 0.21) 82.2%);
+}
+.header__divider::after {
+  transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+}

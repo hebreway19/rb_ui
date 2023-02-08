@@ -1,0 +1,82 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.profile__header__container {
+  margin-left: 1.375rem;
+
+  & h3.title {
+    margin: 0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    @media #{$mq-tiny} {
+      font-size: 1.0625rem;
+      line-height: 1.1875rem;
+      letter-spacing: 0.0625rem;
+    }
+
+    @media #{$mq-small} {
+      font-size: 1.5625rem ;
+      line-height: 4rem  ;
+      letter-spacing: 0.065em;
+    }
+
+    @media #{$mq-large}{
+      font-size: 2.0625rem;
+      line-height: 4rem;
+      letter-spacing: 0.065em;
+    }
+  }
+
+  & span.state {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    color: #000000;
+
+    @media #{$mq-tiny} {
+      font-size: 0.5625rem;
+      line-height: 0.6875rem;
+    }
+
+    @media #{$mq-small} {
+      font-size: 1rem;
+      line-height: 1.1875rem;
+    }
+
+    @media #{$mq-large}{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  & .state-container {
+    @media (min-width: 768px) {
+      margin-top: 0;
+      padding-right: 1rem;
+      padding-top: 14px;
+      max-width: 397px;
+      width: 100%;
+      height: 49px;
+      background: url("/img/svg/state-bg.svg");
+    }
+  }
+}

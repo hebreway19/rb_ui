@@ -1,0 +1,63 @@
+.desktop-radio.custom__default__radio-group .ant-radio-button-wrapper {
+  background-color: inherit !important;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.09em;
+  height: 40px;
+  width: 70px;
+  border: 2px solid #75ECF9 !important;
+  box-sizing: border-box;
+}
+
+.desktop-radio.custom__default__radio-group .ant-radio-button-wrapper > span:nth-child(2) {
+  position: absolute !important;
+  top: 6px !important;
+  left: 20px !important;
+}
+
+.desktop-radio.custom__default__radio-group .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background-color: #75ECF9 !important;
+}
+
+.desktop-radio.custom__default__radio-group .ant-radio-button-wrapper:not(:last-child) {
+  margin-right: 27px;
+}
+
+.desktop-radio.custom__default__radio-group .ant-radio-button-wrapper-checked {
+  background: rgba(117, 236, 249, 0.5) !important;
+  border: 2px solid #75ECF9 !important;
+  box-sizing: border-box;
+}
+
+.mobile-radio.custom__default__radio-group {
+  z-index: 1000;
+
+  .ant-radio-button-wrapper {
+    height: 30px;
+    width: 50px;
+    background-color: inherit !important;
+    color: #ffffff !important;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: normal;
+    border: 2px solid #75ECF9 !important;
+    box-sizing: border-box;
+  }
+
+  .ant-radio-button-wrapper:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .ant-radio-button-wrapper-checked {
+    background: rgba(117, 236, 249, 0.5) !important;
+    border: 2px solid #75ECF9 !important;
+    border-radius: 0 !important;
+  }
+}

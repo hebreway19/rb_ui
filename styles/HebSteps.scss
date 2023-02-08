@@ -1,0 +1,29 @@
+.heb-steps {
+  &__step {
+  }
+  & .ant-steps-item-process .ant-steps-item-icon {
+    background: #75ECF9 !important;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  }
+  .ant-steps-item-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 32px;
+    width: 100%;
+    .ant-steps-item-icon {
+      margin-right: 0 !important;
+    }
+  }
+  & .ant-steps-item-icon {
+    border-color: #75ECF9 !important;
+    background: transparent !important;
+
+    & .anticon {
+      color: #75ECF9 !important;
+    }
+  }
+
+  & .ant-steps-item::before {
+    background: none !important;
+  }
+}

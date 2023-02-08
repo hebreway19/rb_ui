@@ -1,0 +1,88 @@
+.site-page-header-wrapper {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  letter-spacing: .0625rem;
+
+  color: #FFFFFF;
+
+  .ant-typography,
+  .ant-badge-status-text,
+  .ant-card-grid {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    letter-spacing: .0625rem;
+    color: #FFFFFF;
+  }
+  .ant-ribbon-wrapper {
+    .ant-card.ant-card-bordered.heb-card {
+      .ant-typography > p {
+        color: #000000 !important;
+
+        strong {
+          color: #000000 !important;
+        }
+      }
+    }
+  }
+  ul {
+    padding-left: 0;
+    border: unset;
+  }
+  .heb-text-black {
+    color: #000000;
+
+    .ant-typography,
+    .ant-badge-status-text,
+    strong,
+    .ant-card-grid {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      line-height: 1.4375rem;
+      letter-spacing: .0625rem;
+      color: #000000;
+    }
+  }
+  p,
+  mark,
+  mark > strong {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    letter-spacing: .0625rem;
+    color: #000000;
+  }
+  .ant-card {
+    background: unset;
+  }
+  .ant-tag {
+    background: none;
+  }
+  .ant-list-item.ant-list-item-no-flex {
+    border-bottom: .0625rem solid #75ECF9;
+  }
+
+}
+.site-page-header-wrapper .answer-text {
+  background: #C2C4CB;
+  border: .1875rem solid #75ECF9;
+  border-radius: 1.9375rem;
+  padding: 1rem;
+  overflow: auto;
+  min-height: 30.3125rem;
+  height: calc(100vh - 10.25rem);
+  max-height: calc(100vh - 10.25rem);
+
+  .ant-typography {
+    color: #000000 !important;
+  }
+}

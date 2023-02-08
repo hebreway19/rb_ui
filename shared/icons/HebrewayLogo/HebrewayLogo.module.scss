@@ -1,0 +1,26 @@
+// Breakpoints
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-xsmall: "(max-width: #{$bp-small})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(min-resolution: 192dpi) and (min-device-pixel-ratio: 2/1)";
+
+.logo {
+  width: 100%;
+  @media #{$mq-xsmall} {
+    font-size: 2.5rem;
+  }
+
+  @media #{$mq-medium} {
+    font-size: 4rem;
+  }
+}

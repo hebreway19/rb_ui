@@ -1,0 +1,54 @@
+image: node:16
+pipelines:
+  default:
+    - step:
+        name: Build gzip
+        script:
+          - mkdir build
+          - git archive --format=tar.gz $BITBUCKET_BRANCH --output=build/$BITBUCKET_BUILD_NUMBER-$BITBUCKET_COMMIT.tar.gz
+        artifacts:
+          - ./*.tar.gz
+  branches:
+    release/*:
+      - step:
+          name: Build gzip
+          script:
+            - mkdir build
+            - git archive --format=tar.gz $BITBUCKET_BRANCH --output=build/$BITBUCKET_BUILD_NUMBER-$BITBUCKET_COMMIT.tar.gz
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy to development heroku
+          deployment: staging
+          clone:
+            enabled: false
+          script:
+            - pipe: atlassian/heroku-deploy:1.2.1
+              variables:
+                HEROKU_API_KEY: $HEROKU_DEV_API_KEY
+                HEROKU_APP_NAME: $HEROKU_DEV_UI_APP_NAME
+                ZIP_FILE: build/$BITBUCKET_BUILD_NUMBER-$BITBUCKET_COMMIT.tar.gz
+                WAIT: 'true' # Optional.
+                DEBUG: 'true' # Optional
+
+    master:
+      - step:
+          name: Build gzip
+          script:
+            - mkdir build
+            - git archive --format=tar.gz $BITBUCKET_BRANCH --output=build/$BITBUCKET_BUILD_NUMBER-$BITBUCKET_COMMIT.tar.gz
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy to production heroku
+          deployment: production
+          clone:
+            enabled: false
+          script:
+            - pipe: atlassian/heroku-deploy:1.2.1
+              variables:
+                HEROKU_API_KEY: $HEROKU_PROD_API_KEY
+                HEROKU_APP_NAME: $HEROKU_PROD_UI_APP_NAME
+                ZIP_FILE: build/$BITBUCKET_BUILD_NUMBER-$BITBUCKET_COMMIT.tar.gz
+                WAIT: 'true' # Optional.
+                DEBUG: 'true' # Optional

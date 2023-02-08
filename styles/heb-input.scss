@@ -1,0 +1,47 @@
+.heb-input {
+  height: 53.14px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  background-color: inherit !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-family: 'Roboto';
+
+  &::placeholder {
+    background-color: inherit !important;
+    color: #ffffff !important;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+
+  &-type__default {
+    border: 1px solid #8B91B5 !important;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+  }
+
+  &-type__circled {
+    background: #737390 !important;
+    border: 1px solid #8B91B5 !important;
+    border-radius: 10px !important;
+  }
+
+  &-type__primary {
+    background: #737390 !important;
+    border: 1px solid #8B91B5 !important;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+  }
+
+  &-size__small {
+    height: 40px !important;
+  }
+
+  &-type__text,
+  &-type__text:focus {
+    border: none !important;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,21 @@
+.heb-select__dropdown.ant-select-dropdown {
+  border-radius: 0;
+  padding: 0;
+  width: 160px;
+}
+.heb-select__dropdown .ant-select-item {
+  height: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+  color: #4E4F60;
+}
+.heb-select__dropdown .ant-select-item.ant-select-item-option-selected {
+  background: linear-gradient(269.86deg, rgba(168, 253, 255, 0.54) 4.32%, rgba(174, 253, 252, 0.51) 22.17%, rgba(201, 255, 238, 0.9) 82.2%);
+}

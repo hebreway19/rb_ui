@@ -1,0 +1,181 @@
+.ant-spin-container::after {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.mobile-answers-page {
+  &__navs {
+    max-width: 100vw;
+    padding: 0 46px 0 46px;
+    min-height: 62px;
+    span {
+      font-family: Georgia, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      /* identical to box height */
+
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      color: #000000;
+    }
+    span.active {
+      font-family: Georgia, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 8px;
+      line-height: 9px;
+      /* identical to box height */
+
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      color: #514F4F;
+    }
+  }
+  &__header {
+    min-height: 56px;
+    padding: 0 29px;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 100%),
+    rgba(136, 189, 200, 0.72);
+    backdrop-filter: blur(4px);
+
+    span[role="img"] {
+      color: rgba(108, 108, 108, 0.6)
+    }
+
+    .ant-input-search {
+      border: 1px solid #89898C;
+      border-radius: 4px;
+
+      span[role="img"] {
+        color: #89898C;
+      }
+    }
+  }
+  &__footer {
+    min-height: 70px;
+    padding: 0 23px;
+    border-radius: 0 0 39px 39px;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 100%),
+    rgba(108, 110, 144, 0.72);
+    backdrop-filter: blur(4px);
+
+    .ant-pagination-item:hover,
+    .ant-pagination-prev:hover svg,
+    .ant-pagination-next:hover svg,
+    .ant-pagination-item:hover a,
+    .ant-pagination-prev:not(.ant-pagination-disabled):hover button,
+    .ant-pagination-next:not(.ant-pagination-disabled):hover button {
+      border-color: #75ECF9;
+      color: #3B3E66;
+    }
+
+    .ant-pagination-prev button,
+    .ant-pagination-next button,
+    .ant-pagination-item {
+      background: #FFFFFF;
+      border: 1px solid #EEEFF8;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+    .ant-pagination-prev svg,
+    .ant-pagination-next svg,
+    .ant-pagination-item a {
+      color: #3B3E66;
+    }
+    .ant-pagination-item-active {
+      background: #75ECF9;
+      /* Elevation / 1 */
+      border-color: #ffffff00;
+
+      box-shadow: 0 5.008px 21.8px rgba(15, 34, 81, 0.1);
+      border-radius: 4px;
+    }
+    .ant-pagination-prev.ant-pagination-disabled svg,
+    .ant-pagination-next.ant-pagination-disabled svg {
+      color: #D1D2DB !important;
+    }
+  }
+  .list-data {
+    &-item {
+      padding: 16px 29px;
+
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      border-bottom: 3px solid #D9DBDD !important;
+
+      letter-spacing: 0.15px;
+
+      color: #434242;
+
+      &__info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 157px;
+        padding: 1rem;
+
+        background: linear-gradient(180deg, rgba(117, 236, 249, 0.47) 0%, rgba(112, 104, 142, 0.69) 83.36%);
+        backdrop-filter: blur(24px);
+        z-index: 100;
+
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+
+        color: #000000;
+
+        span {
+          font-family: "Nunito Sans", sans-serif;
+          font-weight: bold;
+
+          color: #FFFFFF;
+        }
+
+        .close-icon {
+          position: absolute;
+          right: 1rem;
+          top: 1rem;
+        }
+      }
+    }
+  }
+  .list-main {
+    &-item {
+      padding: 35px 29px;
+
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      border-bottom: 3px solid #D9DBDD !important;
+
+      letter-spacing: 0.15px;
+
+      color: #434242;
+
+    }
+
+    &-item:after {
+      content: url(../scenes/Answers/components/AnswersList/btn-arrow.svg);
+    }
+  }
+}

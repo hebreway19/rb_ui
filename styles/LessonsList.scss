@@ -1,0 +1,173 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.lessons {
+  &-list {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    @media #{$mq-tiny} {
+    }
+
+    @media #{$mq-small} {
+      padding-top: 2.805625rem;
+      margin-bottom: 2.5rem;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(1.5rem);
+      border-bottom-left-radius: 2.5rem;
+      border-bottom-right-radius: 2.5rem;
+    }
+
+    @media #{$mq-large}{
+    }
+
+    @media #{$mq-xlarge} {
+    }
+
+    & > .ant-col > .ant-row {
+      @media #{$mq-tiny} {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+      }
+
+      @media #{$mq-small} {
+        justify-content: start;
+      }
+
+      @media #{$mq-medium} {
+      }
+
+      @media #{$mq-xlarge} {
+      }
+    }
+
+    & .ant-pagination {
+      padding-bottom: 1.25rem;
+      padding-top: 1.25rem;
+
+      @media #{$mq-tiny} {
+      }
+
+      @media #{$mq-small} {
+        margin-top: 1.5rem;
+        border-bottom-left-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(108, 110, 144, 0.72);
+        backdrop-filter: blur(0.25rem);
+      }
+
+      @media #{$mq-large}{
+      }
+
+      @media #{$mq-xlarge} {
+      }
+
+      & .ant-pagination-prev button,
+      & .ant-pagination-next button,
+      & .ant-pagination-item {
+        background: #FFFFFF;
+        border: 1px solid #EEEFF8;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+
+      & .ant-pagination-prev svg,
+      & .ant-pagination-next svg,
+      & .ant-pagination-item a {
+        color: #3B3E66;
+      }
+
+      & .ant-pagination-item-active {
+        background: #75ECF9 !important;
+        /* Elevation / 1 */
+        border-color: #ffffff00 !important;
+
+        box-shadow: 0 5.008px 21.8px rgba(15, 34, 81, 0.1) !important;
+        border-radius: 4px !important;
+      }
+
+      & .ant-pagination-prev.ant-pagination-disabled svg,
+      & .ant-pagination-next.ant-pagination-disabled svg {
+        color: #D1D2DB !important;
+      }
+    }
+
+  }
+}
+
+.lessons-list-header {
+  @media #{$mq-tiny} {
+    margin-bottom: 2rem;
+
+    & .ant-col {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media #{$mq-small} {
+    margin-bottom: unset;
+    backdrop-filter: blur(4px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(158, 215, 227, 0.71);
+    padding: 1.010625rem 1.2rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+  }
+
+  @media #{$mq-medium} {
+    padding-top: 1.34rem;
+    padding-bottom: 1.34rem;
+  }
+
+  @media #{$mq-xlarge} {
+    padding-top: 1.1875rem;
+    padding-bottom: 1.1875rem;
+  }
+
+  border-bottom: none !important;
+}
+
+.lessons-list .lessons-list-button {
+  height: 3rem !important;
+  text-transform: lowercase;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0625rem;
+  z-index: 100;
+}
+
+.lessons-list .lessons-list-button.border-yellow {
+  border: 0.125rem solid #E4FC14 !important;
+  max-width: 21.5rem;
+  width: 100%;
+}
+
+.lessons-list .lessons-list-button.heb-button__primary {
+  background: #737390 !important;
+  border: 0.0625rem solid #75ECF9 !important;
+  max-width: 21.5rem;
+  width: 100%;
+}
+
+.lessons-list .ant-list-pagination .ant-pagination {
+  text-align: center;
+}
+.lessons-list__drawer__close-drawer {
+  font-size: 2.5rem;
+}
+.lessons-list__drawer__close-drawer svg {
+  font-size: 2.5rem;
+  color: #696767;
+}

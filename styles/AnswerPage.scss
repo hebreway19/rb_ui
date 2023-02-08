@@ -1,0 +1,61 @@
+@import "pagesizes";
+
+.page-answers__container {
+  margin: 5.875rem 7.3125rem 5.375rem 4.875rem;
+  background: #B3B4B9;
+  box-shadow: 0 .25rem 3rem rgba(0, 0, 0, 0.02);
+  border-radius: 4rem 4rem 2.5rem 2.5rem;
+
+  @media (min-width: 768px) and (max-width: 1366px) {
+    margin: 3.19625rem 1.703125rem .785625rem 0;
+    border-radius: 0 4rem 2.5rem 0;
+
+    .heb-table .ant-table-tbody > tr.ant-table-placeholder > td,
+    .ant-spin-container > .ant-pagination {
+      border-bottom-left-radius: 0 !important;
+    }
+    .heb-table thead.ant-table-thead > tr,
+    .heb-table thead.ant-table-thead > tr > th:first-child {
+      border-top-left-radius: 0 !important;
+    }
+    .heb-table td.ant-table-cell {
+      padding: 0.385rem;
+    }
+  }
+}
+.page-answers__header {
+  padding: 3.375rem 3.0625rem 1.9375rem 4.6875rem;
+
+  @media (min-width: 768px) and (max-width: 1366px) {
+    padding: 0.97375rem 2.4875rem 1.09375rem 3.73875rem;
+  }
+}
+.page-answers__header h3 {
+  font-family: "Georgia", sans-serif;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.0625rem;
+  line-height: 2.3125rem;
+  letter-spacing: .1875rem;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) and (max-width: 1366px) {
+    font-size: 1.5625rem;
+    line-height: 4.0625rem;
+  }
+
+  color: #000000;
+}
+.page-answers__update-list {
+  color: #00000088 !important;
+}
+.page-answers__update-list:hover {
+  color: #000000 !important;
+}
+
+@media (max-width: 48rem) {
+  .page-answers__container {
+    margin: auto;
+  }
+}

@@ -1,0 +1,241 @@
+@import "./fonts";
+
+@import "styles/LoginFooter";
+@import "./HebForm.scss";
+@import "./HebSteps.scss";
+@import "./HomePage.scss";
+@import "./heb-button.scss";
+@import "./btn-secondary";
+@import "./pagesizes.scss";
+@import "styles/LoginHeader";
+@import "./HebInput.scss";
+@import "./HebSwitch.scss";
+@import "./LanguageSelector.scss";
+@import "./btn-size.scss";
+@import "./heb-checkbox.scss";
+@import "./HebButton.scss";
+@import "./HebModal.scss";
+@import "./HebTable.scss";
+@import "./LoginForm.scss";
+@import "./btn-text.scss";
+@import "./heb-group.scss";
+@import "./HebCard.scss";
+@import "./HebPageHeader.scss";
+@import "./HebTabs.scss";
+@import "./NavigateComponent.scss";
+@import "./heb-input.scss";
+@import "./style.scss";
+@import "./HebCheckbox.scss";
+@import "./HebPanel.scss";
+@import "./HebTextArea.scss";
+@import "./Social.scss";
+@import "./cke.scss";
+@import "./heb-password.scss";
+@import "./HebDatePicker.scss";
+@import "./HebPopconfirm.scss";
+@import "./HebTooltip.scss";
+@import "./StandardAudioComponent.scss";
+@import "./heb-search.scss";
+@import "./HebDivider.scss";
+@import "./HebPopover.scss";
+@import "./HebTypography.scss";
+@import "./HebDrawer.scss";
+@import "./HebRadio.scss";
+@import "./Hebreway.scss";
+@import "./btn-default.scss";
+@import "./HebFilter.scss";
+@import "./HebSelect.scss";
+@import "./HebrewayLogo.scss";
+@import "./btn-primary.scss";
+@import "./dropdown.scss";
+@import "./main.scss";
+@import "./WithSocialLinks.scss";
+@import "./ProfilePage.scss";
+@import "./UlpanInfo.scss";
+@import "./MainProfilePage.scss";
+@import "./UserInfoField.scss";
+@import "./ProfileHeader.scss";
+@import "./EditProfile.scss";
+@import "./ProfileAvatar.scss";
+@import "./FileComponents.scss";
+@import "./NavigateComponent.scss";
+@import "./MainPage.scss";
+@import "./DesktopMenu.scss";
+@import "./MobileMenu.scss";
+@import "./AuthWithSocial.scss";
+@import "./AudioRecorder.scss";
+@import "./StandardAudioComponent.scss";
+@import "./ChangeFontComponent.scss";
+@import "./DataEntryForUlpan.scss";
+@import "./NotFoundPage.scss";
+@import "./RegistrationPage.scss";
+@import "./LoginPage.scss";
+@import "./PasswordRecoveryPage.scss";
+@import "./ForgotPasswordPage.scss";
+@import "./CheckMailPage.scss";
+@import "./EditAgreementPage.scss";
+@import "./HebrewParagraphWithTitle.scss";
+@import "./FootnoteForm.scss";
+@import "./FootnotesTable.scss";
+@import "./Calendar.scss";
+@import "./Details.scss";
+@import "./MobileCalendar.scss";
+@import "./LessonForm.scss";
+@import "./LessonListItem.scss";
+@import "./LessonPage.scss";
+@import "./LessonsList.scss";
+@import "./TextTaskContentEditForm.scss";
+@import "./AvatarComponent.scss";
+@import "./Settings.scss";
+@import "./UlpanChoosePage.scss";
+@import "./UserControlPage.scss";
+@import "./UserDetails.scss";
+@import "./UlpanReviewPage.scss";
+@import "./AnswerExtra";
+@import "./AnswerList";
+@import "./AnswerPage";
+@import "./TaskAnswerPage";
+@import "./HebInputNumber";
+@import "./GoBackButton";
+@import "./ParahraphContent";
+@import "./StudentPanel";
+@import "./EssayTextArea";
+@import "./FontFamilyProvider.scss";
+@import "./MemoryCard";
+
+body div.auth-top-padding {
+  padding-top: calc(100vh / 14.7222222222);
+  background: url(/img/svg/backgroud-image.svg) no-repeat center center,
+  linear-gradient(104.91deg, #303144 1.5%, #7A7C89 105.55%);
+  background-size: 150% 200%;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+.language-selector {
+  position: absolute;
+  top: calc(100vh / 46.9565217391);
+  right: calc(100vw / 12.3870967742);
+}
+.auth__wrapper__content {
+  margin: 0 auto auto auto;
+  width: 100%;
+  max-width: 767px;
+  background: linear-gradient(180deg,
+                              rgba(255, 255, 255, 0.14) 0%,
+                              rgba(255, 255, 255, 0) 100%),
+                              rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(24px);
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+
+  .auth__form__container {
+    padding: calc(100vh / 15.4285714286)
+             calc(100vw / 14.2222222222)
+             0
+             calc(100vw / 14.2222222222);
+
+    .login-form-container {
+      margin-bottom: calc(100vh / 8.05970149254);
+    }
+    .registration-form-container {
+      margin-bottom: calc(100vh / 16.9891458235);
+    }
+  }
+  .auth__social__from {
+    padding: calc(100vh / 27)
+             calc(100vw / 14.0700571596)
+             calc(100vh / 15.8823529412)
+             calc(100vw / 12.5490196078);
+    background: linear-gradient(180deg,
+                                rgba(255, 255, 255, 0.2) 0%,
+                                rgba(255, 255, 255, 0) 100%),
+                                rgba(108, 110, 144, 0.72);
+    backdrop-filter: blur(4px);
+    border-radius: 0 0 40px 40px;
+  }
+}
+@media (max-width: 1024px) {
+  body div.auth-top-padding {
+    padding-top: calc(100vh / 7.93798449612);
+  }
+  .language-selector {
+    position: absolute;
+    top: calc(100vh / 35.3103448276);
+    right: calc(100vw / 20.2105263158);
+  }
+  .auth__wrapper__content {
+    max-width: calc(100vw / 1.27574750831);
+    min-width: unset;
+
+    .auth__form__container {
+      padding: calc(100vh / 15.4285714286)
+      calc(100vw / 11.4626865672)
+      0px
+      calc(100vw / 7.68);
+
+      .login-form-container {
+        margin-bottom: calc(100vh / 6.78145695364);
+      }
+      .registration-form-container {
+        padding-bottom: calc(100vh / 11.790443293);
+      }
+    }
+    .auth__social__from {
+      padding: calc(100vh / 19.6923076923)
+               calc(100vw / 9.03529411765)
+               calc(100vh / 18.962962963)
+               calc(100vw / 7.52941176471);
+    }
+  }
+
+  @media (max-width: 425px) {
+    body div.auth-top-padding {
+      padding-top: calc(100vh / 10.5873015873);
+    }
+    .language-selector {
+      position: absolute;
+      top: calc(100vh / 55.5833333333);
+      right: calc(100vw / 34.0909090909);
+    }
+    .auth__wrapper__content {
+      max-width: calc(100vw / 1.08069164265);
+
+      .auth__form__container {
+        padding: calc(100vh / 23.8214285714)
+                 calc(100vw / 26.7857142857)
+                 0
+                 calc(100vw / 15.625);
+
+        .login-form-container {
+          margin-bottom: calc(100vh / 7.59335154827);
+        }
+        .registration-form-container {
+          margin-bottom: 0;
+          padding-bottom: 2.25rem
+        }
+      }
+      .auth__social__from {
+        padding: calc(100vh / 36.7290748899)
+                 calc(100vw / 7.35294117647)
+                 calc(100vh / 20.2121212121)
+                 calc(100vw / 9.61538461538);
+      }
+    }
+  }
+}
+@media (max-width: 1366px) and (min-width: 1024px) {
+  .language-selector {
+    top: 1.8125rem;
+    right: 3.25rem;
+  }
+  .auth__wrapper__content {
+    max-width: 31.13875rem;
+
+    .auth__form__container {
+      padding: 0.88125rem 1.4125rem 0 2.541875rem;
+    }
+  }
+  .auth__social__from {
+    padding: 1.8875rem 7.13625rem 1.7625rem 7.45625rem;
+  }
+}

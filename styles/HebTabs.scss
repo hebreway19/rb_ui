@@ -1,0 +1,16 @@
+.heb-tabs {
+  .ant-tabs-tab.ant-tabs-tab-active {
+    .ant-tabs-tab-btn {
+      color: #fff;
+    }
+  }
+  .ant-tabs-ink-bar {
+    background: #75ECF9;
+  }
+}
+.heb-tabs.ant-tabs-top > .ant-tabs-nav::before,
+.heb-tabs.ant-tabs-bottom > .ant-tabs-nav::before,
+.heb-tabs.ant-tabs-top > div > .ant-tabs-nav::before,
+.heb-tabs.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  border-bottom: 1px solid #737390 !important;
+}

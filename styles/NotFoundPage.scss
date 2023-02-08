@@ -1,0 +1,25 @@
+.not-found_header {
+  height: 100vh;
+
+  &__container {
+    text-align: center;
+
+    h3.not-found_header__title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      padding: 0 1.7rem;
+      color: #ffffff;
+    }
+
+    span.not-found_header__sub-title {
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 0 1.7rem;
+    }
+
+    img.not-found_header__img {
+      width: 100%;
+      max-width: 42rem;
+    }
+  }
+}

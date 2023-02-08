@@ -1,0 +1,35 @@
+.title {
+  margin: 0;
+  width: 15.625rem;
+
+  font-family: 'Book Antiqua', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.0625rem;
+
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  span {
+    color: #75ecf9;
+  }
+
+  @media (min-width: 1024px) {
+    width: 100%;
+    line-height: 4.03125rem;
+    font-size: 3.4375rem;
+    letter-spacing: 0.105em;
+
+    @media (min-width: 1440px) {
+      font-weight: 400;
+      font-size: 5.75rem;
+      line-height: 5.3125rem;
+      /* or 92% */
+
+      letter-spacing: 0.105em;
+    }
+  }
+}

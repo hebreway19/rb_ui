@@ -1,0 +1,115 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.desktop-layout {
+  @media #{$mq-tiny} {
+    margin-top: 2.75rem;
+  }
+
+  @media #{$mq-small} {
+    margin-left: -4rem;
+    margin-top: 3.184375rem;
+  }
+
+  @media #{$mq-large}{
+  }
+
+  .container {
+    margin-bottom: 1.1875rem;
+    background: #B3B4B9;
+    box-shadow: 0 4px 48px rgba(0, 0, 0, 0.02);
+    border-radius: 4rem;
+
+    @media #{$mq-tiny} {
+      padding-top: 2rem;
+      padding-bottom: 0.625rem;
+      border-radius: 2.25rem;
+      & > .ant-row {
+        justify-content: center;
+      }
+    }
+
+    @media #{$mq-small} {
+      padding-top: 0.98625rem;
+      padding-bottom: 1.939375rem;
+    }
+
+    @media #{$mq-large}{
+    }
+
+    .user-field {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+
+      color: #000000;
+    }
+
+    .user-name {
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.75rem;
+      line-height: 1.725rem;
+    }
+
+    &-info {
+      @media #{$mq-tiny} {
+        border-radius: 2.25rem;
+        padding-top: 1.125rem;
+        padding-bottom: 1.5625rem;
+
+        & > .ant-row {
+          justify-content: center;
+        }
+      }
+
+      @media #{$mq-small} {
+        margin-left: -1rem;
+        padding: 2rem 3rem 3rem 3rem;
+
+        & > .ant-row {
+          padding-left: 2.75rem;
+        }
+      }
+
+      @media #{$mq-large}{
+      }
+
+      background: linear-gradient(180deg, rgba(117, 236, 249, 0.47) 0%, rgba(112, 104, 142, 0.69) 83.36%);
+      box-shadow: inset 0 4px 14px #FFFFFF;
+      backdrop-filter: blur(30px);
+      border-radius: 0 2.5rem 2.5rem 0;
+
+      .underline {
+        position: absolute;
+        content: "";
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        background: linear-gradient(rgba(168, 253, 255, 1),
+                                    rgba(174, 253, 252, 0.8642),
+                                    rgba(201, 255, 238, 0.21)),
+                    linear-gradient(rgba(168, 253, 255, 1),
+                                    rgba(174, 253, 252, 0.8642),
+                                    rgba(201, 255, 238, 0.21));
+      }
+    }
+  }
+}

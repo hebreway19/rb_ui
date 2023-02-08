@@ -1,0 +1,7 @@
+export enum ContentState {
+  EDIT = "EDIT",
+  ADD_IMAGE = "ADD_IMAGE",
+  ADD_AUDIO = "ADD_AUDIO",
+  ADD_FOOTNOTE = "ADD_FOOTNOTE",
+  EDIT_FOOTNOTE = "EDIT_FOOTNOTE",
+}

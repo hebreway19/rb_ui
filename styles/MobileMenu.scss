@@ -1,0 +1,110 @@
+.mobile-menu__showButton {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.mobile-menu__hideButton {
+  position: absolute;
+  bottom: 0;
+}
+.mobile-menu__hideButton span,
+.mobile-menu__showButton span {
+  width: 105px;
+  text-align: center;
+}
+.mobile-menu__showButton svg {
+  transform: rotate(90deg);
+}
+.mobile-menu__hideButton svg {
+  transform: rotate(270deg);
+}
+.mobile-menu__showButton,
+.mobile-menu__hideButton {
+  left: calc(50vw - 52.5px);
+  width: 105px;
+  height: 21px;
+  background: url(/img/svg/bottom-rectangle.svg);
+}
+.mobile-menu,
+.mobile-menu .ant-drawer-content {
+  background: unset;
+}
+.mobile-menu.ant-drawer-top.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow: none;
+}
+
+.mobile-menu .ant-drawer-body {
+  padding: 0;
+}
+.mobile-menu logo {
+  position: absolute;
+  top: 11px;
+  left: 19px;
+  width: 30px;
+  height: 30px;
+  background: url(/img/svg/logo.svg) center center no-repeat;
+  background-size: cover;
+}
+.mobile-menu .mobile-menu__container {
+  padding-top: 60px;
+  background: #707395;
+  height: calc(100% - 21px);
+  overflow: auto;
+  width: 100%;
+}
+.mobile-menu .mobile-menu__container .ant-menu {
+  background: none;
+}
+.mobile-menu ul.ant-menu {
+  padding-left: 69px !important;
+  padding-bottom: 33px;
+  padding-right: 33px;
+}
+.mobile-menu .ant-menu-item-selected {
+  background-color: unset !important;
+}
+.mobile-menu .ant-menu .ant-menu-item svg,
+.mobile-menu .ant-menu .ant-menu-item a,
+.mobile-menu .ant-menu .ant-menu-item span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.mobile-menu .ant-menu-item-selected svg,
+.mobile-menu .ant-menu-item-selected a {
+  color: #FCFE2B !important;
+}
+.mobile-menu ul:not(.ant-menu-inline-collapsed) li.ant-menu-item,
+.mobile-menu ul:not(.ant-menu-inline-collapsed) li.ant-menu-item > span > svg {
+  font-size: 20px;
+  a, span {
+    font-weight: normal;
+    font-family: Roboto, sans-serif !important;
+    color: #ffffff;
+  }
+}
+.mobile-menu ul li.ant-menu-item:not(.ant-menu-item-disabled) {
+  span[role="img"] {
+    color: #75ECF9;
+  }
+}
+.mobile-menu ul li.ant-menu-item.ant-menu-item-disabled {
+  span[role="img"] {
+    color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+
+.mobile-menu li.ant-menu-item.ant-menu-item-selected,
+.mobile-menu li.ant-menu-item.ant-menu-item-selected .active {
+  a, span {
+    color: #FCFE2B !important;
+  }
+  color: #FCFE2B !important;
+}
+
+.ant-tooltip-inner * {
+  color: #686868;
+}

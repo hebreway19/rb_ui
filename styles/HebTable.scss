@@ -1,0 +1,206 @@
+@import "./pagesizes.scss";
+.heb-table {
+  background: linear-gradient(180deg,
+                              rgba(255, 255, 255, 0.14) 0%,
+                              rgba(255, 255, 255, 0) 100%),
+                              rgba(255, 255, 255, 0.1) !important;
+}
+
+.heb-table,
+.heb-table table,
+.heb-table .ant-table-content,
+.heb-table .ant-table-container,
+.heb-table .ant-table,
+.heb-table .ant-table-wrapper,
+.heb-table .ant-spin-container,
+.heb-table .ant-spin-nested-loading {
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+  background: unset;
+}
+.heb-table .ant-table-column-sorters svg,
+.heb-table .ant-table-filter-trigger-container svg,
+.heb-table .ant-table-filter-trigger:not(.ant-dropdown-open) svg {
+  color: #00000088;
+}
+.heb-table .ant-table-column-sorters .active svg,
+.heb-table .ant-table-filter-trigger-container .active svg,
+.heb-table .ant-table-filter-trigger.ant-dropdown-open svg {
+  color: #000000;
+}
+.heb-table .ant-table-row:hover {
+  background: linear-gradient(180deg,
+                              rgba(255, 255, 255, 0.2) 0%,
+                              rgba(255, 255, 255, 0) 100%),
+                              rgba(136, 189, 200, 0.72) !important;
+}
+.heb-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: unset;
+}
+.heb-table td,
+.heb-table th {
+  border-bottom: 2px solid #D9DBDD !important;
+}
+.heb-table .ant-table-column-sort {
+  background-color: #75ECF976;
+}
+.heb-table thead.ant-table-thead {
+  border-radius: 0 0 40px 40px;
+  background: linear-gradient(180deg,
+                              rgba(255, 255, 255, 0.2) 0%,
+                              rgba(255, 255, 255, 0) 100%),
+                              rgba(136, 189, 200, 0.72);
+  backdrop-filter: blur(4px);
+}
+.heb-table thead.ant-table-thead > tr {
+  border-radius: 0 0 40px 40px;
+}
+.heb-table thead.ant-table-thead > tr > th:first-child {
+  border-top-left-radius: 40px !important;
+}
+.heb-table thead.ant-table-thead > tr > th:last-child {
+  border-top-right-radius: 40px !important;
+}
+.heb-table .ant-table-filter-trigger-container {
+  transition: none !important;
+}
+.heb-table thead.ant-table-thead > tr > th,
+.heb-table thead.ant-table-thead > tr > th .ant-dropdown-trigger {
+  background: none;
+}
+.heb-table thead.ant-table-thead > tr > th:hover,
+.heb-table thead.ant-table-thead > tr > th:hover .ant-dropdown-trigger.ant-table-filter-trigger {
+  transition: none !important;
+  background: #75ECF9;
+}
+
+.heb-table,
+.heb-table .ant-pagination.ant-table-pagination,
+.heb-table .ant-table-wrapper,
+.heb-table .ant-table,
+.heb-table .ant-spin-nested-loading,
+.heb-table .ant-spin-nested-loading .ant-spin-container,
+.heb-table .ant-spin-container {
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+}
+.heb-table .ant-table-tbody > tr.ant-table-placeholder > td {
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+}
+
+.heb-table .ant-pagination.ant-table-pagination {
+  background: linear-gradient(180deg,
+                              rgba(255, 255, 255, 0.2) 0%,
+                              rgba(255, 255, 255, 0) 100%),
+                              rgba(108, 110, 144, 0.72);
+  backdrop-filter: blur(4px);
+  margin: 0;
+  padding: 16px 0;
+}
+.heb-table .ant-pagination-item:hover,
+.heb-table .ant-pagination-prev:hover svg,
+.heb-table .ant-pagination-next:hover svg,
+.heb-table .ant-pagination-item:hover a,
+.heb-table .ant-pagination-prev:not(.ant-pagination-disabled):hover button,
+.heb-table .ant-pagination-next:not(.ant-pagination-disabled):hover button {
+  border-color: #75ECF9;
+  color: #3B3E66;
+}
+
+.heb-table .ant-pagination-prev button,
+.heb-table .ant-pagination-next button,
+.heb-table .ant-pagination-item {
+  background: #FFFFFF;
+  border: 1px solid #EEEFF8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.heb-table .ant-pagination-prev svg,
+.heb-table .ant-pagination-next svg,
+.heb-table .ant-pagination-item a {
+  color: #3B3E66;
+}
+.heb-table .ant-pagination-item-active {
+  background: #75ECF9;
+  /* Elevation / 1 */
+  border-color: #ffffff00;
+
+  box-shadow: 0 5.008px 21.8px rgba(15, 34, 81, 0.1);
+  border-radius: 4px;
+}
+.heb-table .ant-pagination-prev.ant-pagination-disabled svg,
+.heb-table .ant-pagination-next.ant-pagination-disabled svg {
+  color: #D1D2DB !important;
+}
+
+.ant-tooltip-content > .ant-tooltip-arrow > .ant-tooltip-arrow-content,
+.ant-tooltip-content > .ant-tooltip-inner {
+  background-color: #ffffff;
+  color: #686868;
+}
+
+.ant-table-filter-dropdown .ant-dropdown-menu,
+.ant-table-filter-dropdown .ant-dropdown-menu li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.ant-table-filter-dropdown .ant-dropdown-menu-item {
+  height: 40px;
+}
+.ant-table-filter-dropdown .ant-dropdown-menu-item span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 38px;
+  color: #4E4F60;
+}
+.ant-table-filter-dropdown .ant-dropdown-menu-item.ant-dropdown-menu-item-selected {
+  background: linear-gradient(269.86deg,
+                              rgba(168, 253, 255, 0.54) 4.32%,
+                              rgba(174, 253, 252, 0.51) 22.17%,
+                              rgba(201, 255, 238, 0.9) 82.2%);
+}
+.ant-table-filter-dropdown {
+  text-align: center !important;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  letter-spacing: 1px !important;
+}
+.ant-table-filter-dropdown .ant-checkbox.ant-checkbox-checked > .ant-checkbox-inner:after {
+  content: none;
+  transform: none !important;
+  transition: none;
+  background: #75ECF9;
+}
+.ant-table-filter-dropdown .ant-checkbox-checked,
+.ant-table-filter-dropdown .ant-checkbox.ant-checkbox-checked > .ant-checkbox-inner {
+  background: rgba(94, 209, 227, 0.79) !important;
+}
+
+.ant-table-filter-dropdown .ant-checkbox > .ant-checkbox-inner,
+.ant-table-filter-dropdown .ant-checkbox:after,
+.ant-table-filter-dropdown .ant-checkbox-input:focus,
+.ant-table-filter-dropdown .ant-checkbox-input:active,
+.ant-table-filter-dropdown .ant-checkbox-input {
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid #75ECF9;
+  background: inherit !important;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.ant-table-filter-dropdown .ant-btn.ant-btn-sm {
+  border-radius: 0 !important;
+  border: 2px solid #75ECF9 !important;
+  color: #4E4F60;
+}
+.ant-table-filter-dropdown .ant-btn.ant-btn-sm.ant-btn-link {
+  border: unset !important;
+}
+.ant-table-filter-dropdown .ant-btn.ant-btn-primary.ant-btn-sm {
+  background: rgba(94, 209, 227, 0.79) !important;
+}

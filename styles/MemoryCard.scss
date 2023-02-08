@@ -1,0 +1,85 @@
+.memory-card {
+  background-color: transparent;
+  width: 100%;
+  height: 10rem;
+  perspective: 62.5rem;
+
+  * {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+  }
+
+  &-inner {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 1.6875rem;
+
+    .memory-card-front, .memory-card-back {
+      background: #E1E1E1;
+      border: 3px solid #75ECF9;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border-radius: 1.6875rem;
+      z-index: -1;
+
+      .heb-button {
+        padding-left: .2rem !important;
+        padding-right: .2rem !important;
+        font-size: .75rem !important;
+      }
+    }
+    .memory-card-front {
+      background: linear-gradient(90.75deg, #6D6F91 7.38%, rgba(110, 112, 146, 0.69) 60.82%, #8284A2 89.28%),
+      linear-gradient(92.35deg, #5A5C83 -0.4%, #8287A5 62.1%);
+
+      h3 {
+        font-family: Book Antiqua, sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        span {
+          color: #75ecf9;
+        }
+      }
+    }
+    .memory-card-back {
+      transform: rotateY(180deg);
+      color: #000000;
+
+      .heb-typography {
+        margin: 0;
+      }
+      .heb-button {
+        color: #000000 !important;
+      }
+    }
+  }
+  &.open &-inner {
+    transform: rotateY(180deg);
+    z-index: 1;
+  }
+}
+.memory-card.isCorrect {
+  .memory-card-front {
+    background: linear-gradient(90.75deg, #6e916d 7.38%, rgba(114, 146, 110, 0.69) 60.82%, #8da282 89.28%),
+    linear-gradient(92.35deg, #5e835a -0.4%, #87a582 62.1%);
+  }
+}
+.memory-card.isWrong {
+    .memory-card-front, .memory-card-back {
+      border: 3px solid #f9c475 !important;
+    }
+}

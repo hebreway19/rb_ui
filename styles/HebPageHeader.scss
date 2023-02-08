@@ -1,0 +1,115 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.heb-page {
+  padding-top: 1rem;
+  &__header {
+    &.heb-page__header {
+      background: none;
+
+      @media #{$mq-tiny} {
+      }
+
+      @media #{$mq-medium} {
+      }
+
+      @media #{$mq-xlarge} {
+      }
+
+      & .ant-page-header-heading-title {
+        color: #ffffff;
+        font-family: "Georgia", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: uppercase;
+
+
+        @media #{$mq-tiny} {
+          color: #ffffff;
+          font-size: 1.1875rem;
+          line-height: 1.1875rem;
+        }
+
+        @media #{$mq-small} {
+          font-size: 1.5625rem;
+          line-height: 4rem;
+          letter-spacing: 0.065em;
+        }
+
+        @media #{$mq-medium} {
+        }
+
+        @media #{$mq-xlarge} {
+        }
+
+        & .mark {
+          color: #75ECF9;
+        }
+      }
+    }
+
+    &__border {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(269.86deg,
+      #A8FDFF 4.32%,
+      rgba(174, 253, 252, 0.864219) 22.17%,
+      rgba(201, 255, 238, 0.21) 82.2%),
+      linear-gradient(269.86deg,
+      #A8FDFF 4.32%,
+      rgba(174, 253, 252, 0.864219) 22.17%,
+      rgba(201, 255, 238, 0.21) 82.2%);
+    }
+
+    &__container {
+      & .ant-page-header {
+        @media #{$mq-tiny} {
+          padding-top: 2rem;
+          padding-bottom: unset;
+          padding-left: 1.5rem;
+        }
+
+        @media #{$mq-small} {
+          padding-top: unset;
+        }
+
+        @media #{$mq-medium} {
+        }
+
+        @media #{$mq-xlarge} {
+        }
+
+        & .ant-page-header-heading {
+
+          @media #{$mq-tiny} {
+            justify-content: center;
+          }
+
+          @media #{$mq-small} {
+          }
+
+          @media #{$mq-medium} {
+            justify-content: space-between;
+          }
+
+          @media #{$mq-xlarge} {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}

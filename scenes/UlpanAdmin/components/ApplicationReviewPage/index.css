@@ -1,0 +1,27 @@
+.user_control_list-container {
+    padding: 1.25rem 1.25rem;
+}
+
+.user_control_list-disable_user {
+    margin-bottom: 1.25rem;
+}
+
+.user_control_list-table table {
+    width: 100%;
+}
+
+.user_control_list-table .ant-table-thead .ant-table-cell {
+    color: #1c7269;
+    font-weight: 500;
+    border-bottom: .0625rem solid #f5f7fd;
+    text-align: center;
+}
+
+.user_control_list-row td {
+    text-align: center;
+}
+
+.user_control_list-photo {
+    width: 3.125rem;
+    border-radius: 1.5625rem;
+}

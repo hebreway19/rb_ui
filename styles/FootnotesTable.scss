@@ -1,0 +1,266 @@
+@import "./pagesizes.scss";
+
+.desktop-table {
+  .page-footnote-list__container {
+    margin: 0 7.3125rem 1rem 4.875rem;
+    background: #B3B4B9;
+    box-shadow: 0 .25rem 4rem rgba(0, 0, 0, 0.02);
+    border-radius: 4rem 4rem 2.5rem 2.5rem;
+    @media (min-width: 768px) and (max-width: 1366px) {
+      margin: 3.19625rem 1.703125rem 1rem 0;
+      border-radius: 0 4rem 2.5rem 0;
+    }
+  }
+  .page-footnote-list__header {
+    padding: 2.125rem 3.0625rem 2.5rem 4.6875rem;
+    @media (min-width: 768px) and (max-width: 1366px) {
+      padding: 1rem 3.0625rem 2.090625rem .875rem;
+
+      h3 {
+        margin-left: 2.86375rem;
+      }
+    }
+  }
+  .ant-table-selection-col {
+    width: 4.375rem;
+  }
+
+  .page-footnote-list__header h3 {
+    font-family: "Georgia", sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.0625rem;
+    line-height: 2.3125rem;
+    letter-spacing: .1875rem;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  .page-footnote-list__update-list {
+    color: #00000088 !important;
+  }
+  .page-footnote-list__update-list:hover {
+    color: #000000 !important;
+  }
+  @media (min-width: 768px) and (max-width: 1366px) {
+    .heb-table, .heb-table .ant-pagination.ant-table-pagination, .heb-table .ant-table-wrapper, .heb-table .ant-table, .heb-table .ant-spin-nested-loading, .heb-table .ant-spin-nested-loading .ant-spin-container, .heb-table .ant-spin-container {
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+    }
+    .ant-pagination {
+      border-bottom-left-radius: 0 !important;
+    }
+    .heb-table thead.ant-table-thead,
+    .ant-table-container table > thead > tr:first-child th:first-child,
+    .heb-table thead.ant-table-thead > tr > th:first-child {
+      border-top-left-radius: 0px !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .page-footnote-list__container {
+      margin: auto;
+    }
+  }
+}
+.mobile-table {
+  margin: -1.5rem 0 4.4375rem 0;
+  padding-top: 1.5rem;
+  .page-footnote-list__container {
+    border-radius: 2.5rem;
+    background: #B3B4B9;
+    box-shadow: 0 .25rem 3rem rgba(0, 0, 0, 0.02);
+    .heb-page-header {
+      width: 100%;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 0 2.5625rem 0 2.5625rem !important;
+      span.ant-page-header-heading-title {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.0625rem;
+        line-height: 1.1875rem;
+        letter-spacing: .1875rem;
+        text-transform: uppercase;
+
+        color: #000000;
+
+      }
+    }
+    .mobile-control {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(136, 189, 200, 0.72);
+      backdrop-filter: blur(.25rem);
+      border-radius: 2.5rem 2.5rem 0 0;
+      padding: .9375rem;
+      margin: 0;
+      max-width: calc(100vw + .25rem);
+
+      .ant-radio-group {
+        .heb-radio__button:not(:last-child) {
+          margin-right: .5rem;
+        }
+      }
+    }
+    .ant-table-thead {
+      display: none;
+    }
+    .heb-table {
+      tr.ant-table-expanded-row > td, tr.ant-table-expanded-row:hover > td {
+        background: unset;
+      }
+      .ant-table-expanded-row-level-1 {
+        background: linear-gradient(180deg, rgba(117, 236, 249, 0.47) 0%, rgba(112, 104, 142, 0.69) 83.36%) !important;
+        backdrop-filter: blur(1.5rem) !important;
+
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: .8125rem;
+        line-height: .9375rem;
+        color: #FFFFFF;
+
+        span.head {
+          font-weight: 500;
+          color: #000000;
+        }
+      }
+      .ant-table-row-expand-icon-cell {
+        padding: 0;
+        button {
+          position: absolute;
+          top: 0;
+          left: -.625px;
+          width: calc(100vw - 4.375rem);
+          height: 100%;
+          bottom: 0;
+          opacity: 0;
+          z-index: 1;
+        }
+      }
+      .ant-table-selection-column {
+        .ant-checkbox-wrapper {
+          z-index: 1000;
+        }
+      }
+    }
+
+    .heb-table,
+    .heb-table table,
+    .heb-table .ant-table-content,
+    .heb-table .ant-table-container,
+    .heb-table .ant-table,
+    .heb-table .ant-table-wrapper,
+    .heb-table .ant-spin-container,
+    .heb-table .ant-spin-nested-loading {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      background: unset;
+    }
+    .heb-table,
+    .heb-table,
+    .ant-pagination.ant-table-pagination,
+    .heb-table .ant-table-wrapper,
+    .heb-table .ant-table,
+    .heb-table .ant-spin-nested-loading,
+    .heb-table .ant-spin-nested-loading .ant-spin-container,
+    .heb-table .ant-spin-container {
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+    }
+
+    .item-title {
+      padding-top: 1.6875rem;
+      height: 6.8125rem;
+    }
+    .item-control {
+      padding-top: .5625rem;
+      padding-bottom: 0.375rem;
+      background: #AAA6A6;
+    }
+    .ant-spin-nested-loading,
+    .ant-spin-container,
+    .ant-list {
+      border-radius: 0 0 2.5rem 2.5rem;
+    }
+    .ant-list-item button {
+      svg {
+        font-size: 1.8125rem;
+      }
+    }
+    .ant-list-pagination {
+      margin-top: 0;
+      text-align: center;
+      padding: 1.8125rem 0 0 1.0625rem;
+      height: 5.25rem;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(108, 110, 144, 0.72);
+      backdrop-filter: blur(.125rem);
+      border-radius: 0 0 2.5rem 2.5rem;
+    }
+
+    .ant-pagination.ant-table-pagination {
+      background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%),
+      rgba(108, 110, 144, 0.72);
+      backdrop-filter: blur(.125rem);
+      margin: 0;
+      padding: 1rem 0;
+    }
+    .ant-pagination-item:hover,
+    .ant-pagination-prev:hover svg,
+    .ant-pagination-next:hover svg,
+    .ant-pagination-item:hover a,
+    .ant-pagination-prev:not(.ant-pagination-disabled):hover button,
+    .ant-pagination-next:not(.ant-pagination-disabled):hover button {
+      border-color: #75ECF9;
+      color: #3B3E66;
+    }
+
+    .ant-pagination-prev button,
+    .ant-pagination-next button,
+    .ant-pagination-item {
+      background: #FFFFFF;
+      border: .0625rem solid #EEEFF8;
+      box-sizing: border-box;
+      border-radius: .125rem;
+    }
+    .ant-pagination-prev svg,
+    .ant-pagination-next svg,
+    .ant-pagination-item a {
+      color: #3B3E66;
+    }
+    .ant-pagination-item-active {
+      background: #75ECF9;
+      /* Elevation / 1 */
+      border-color: #ffffff00;
+
+      box-shadow: 0 .313rem 1.3625rem rgba(15, 34, 81, 0.1);
+      border-radius: .25rem;
+    }
+    .ant-pagination-prev.ant-pagination-disabled svg,
+    .ant-pagination-next.ant-pagination-disabled svg {
+      color: #D1D2DB !important;
+    }
+
+    .ant-tooltip-content > .ant-tooltip-arrow > .ant-tooltip-arrow-content,
+    .ant-tooltip-content > .ant-tooltip-inner {
+      background-color: #ffffff;
+      color: #686868;
+    }
+
+    .list-item-button-label {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: .875rem;
+      line-height: 1rem;
+
+      text-align: center;
+      letter-spacing: .078125rem;
+      font-variant: small-caps;
+
+      color: #58596B
+    }
+  }
+}

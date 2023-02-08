@@ -1,0 +1,107 @@
+body {
+  .font-size__small {
+
+    *:lang(he):not(.lesson-card-title) {
+      font-size: 1.25rem !important;
+    }
+
+
+    h1:lang(he) {
+      font-size: 38px !important;
+    }
+
+    h2:lang(he) {
+      font-size: 30px !important;
+    }
+
+    h3:lang(he) {
+      font-size: 24px !important;
+    }
+
+    h4:lang(he) {
+      font-size: 18px !important;
+    }
+
+    h5:lang(he) {
+      font-size: 14px !important;
+    }
+  }
+  .font-size__default {
+    *:lang(he):not(.lesson-card-title) {
+      font-size: 1.5rem !important;
+    }
+
+    .input_hebrew-text:lang(he) {
+      font-size: 20px !important;
+    }
+
+    .input_hebrew-text {
+      font-size: 20px !important;
+    }
+
+    input:lang(he) {
+      font-size: 14px !important
+    }
+
+    h1:lang(he) {
+      font-size: 40px !important;
+    }
+
+    h2:lang(he) {
+      font-size: 32px !important;
+    }
+
+    h3:lang(he) {
+      font-size: 26px !important;
+    }
+
+    h4:lang(he) {
+      font-size: 20px !important;
+    }
+
+    h5:lang(he) {
+      font-size: 16px !important;
+    }
+  }
+  .font-size__large {
+    *:lang(he):not(.lesson-card-title) {
+      font-size: 2rem !important;
+    }
+
+    h1:lang(he) {
+      font-size: 46px !important;
+    }
+
+    h2:lang(he) {
+      font-size: 38px !important;
+    }
+
+    h3:lang(he) {
+      font-size: 32px !important;
+    }
+
+    h4:lang(he) {
+      font-size: 26px !important;
+    }
+
+    h5:lang(he) {
+      font-size: 22px !important;
+    }
+  }
+  .font-family__arial *:lang(he),
+  .font-family__arial *:lang(he) > p {
+    font-family: Arial, sans-serif !important;
+  }
+  .font-family__сardo *:lang(he),
+  .font-family__сardo *:lang(he) > p {
+    font-family: Cardo, sans-serif !important;
+  }
+  .font-family__times_new_roman *:lang(he),
+  .font-family__times_new_roman *:lang(he) > p {
+    font-family: "Times New Roman", sans-serif !important;
+  }
+  .font-family__david_libre *:lang(he),
+  .font-family__david_libre *:lang(he) > p {
+    font-family: "David Libre", sans-serif !important;
+  }
+}

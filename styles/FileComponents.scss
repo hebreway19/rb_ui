@@ -1,0 +1,31 @@
+@import "./pagesizes.scss";
+.heb-image-upload {
+  .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+    border: 2px solid #75ECF9;
+  }
+  .ant-upload-list-item.ant-upload-list-item-done.ant-upload-list-item-list-type-picture-card {
+    border: 2px solid #75ECF9;
+  }
+  .ant-upload-list-item.ant-upload-list-item-uploading.ant-upload-list-item-list-type-picture-card {
+    border: 2px solid #75ECF9;
+    background-color: unset;
+    color: #ffffff;
+  }
+}
+.heb-file-upload {
+  display: block;
+  .ant-upload.ant-upload-select.ant-upload-select-text {
+    width: 100%;
+  }
+  .ant-upload-list-item-name:hover {
+    background-color: unset !important;
+  }
+}
+
+.footnote-upload {
+  @media #{$min-width-md-retina-xl} {
+    svg {
+      font-size: 8px;
+    }
+  }
+}

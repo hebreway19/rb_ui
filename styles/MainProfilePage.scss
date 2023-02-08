@@ -1,0 +1,66 @@
+.social-card_container {
+	margin-top: .5rem;
+}
+
+.social-card {
+	width: 100%;
+	box-shadow: 1px 2px 5px 2px #00000033;
+	border: none;
+}
+
+.social-card > * {
+	padding: .5rem 1.5rem !important;
+	color: #ffffff !important;
+}
+
+.social-card__icon {
+	font-size: 2rem;
+}
+
+.social-card__description {
+	font-size: 1.12rem;
+	margin: .5rem 0;
+}
+
+.social-card__description__link {
+	color: #ffffff !important;
+}
+
+.social-card.apple .social-card__description__link {
+	color: #000000 !important;
+}
+
+.social-card.facebook {
+	background-color: #1877f2 !important;
+}
+.social-card.apple {
+	background-color: #0f0f0f !important;
+}
+.social-card.google {
+	background-color: #e02525 !important;
+}
+.social-card.vk {
+	background-color: #3f8ae0 !important;
+}
+
+.avatar_update__container {
+	background-color: #ffffff30;
+}
+
+.avatar_update__button {
+	position: absolute;
+	height: 102px; width: 102px;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #00000049;
+}
+
+.main-info__button {
+	margin: 1rem 0;
+	width: 100%
+}
+
+.ulpan_info__contact_col {
+	text-align: center;
+}

@@ -1,0 +1,19 @@
+$text-color: #ffffff;
+$background-color: #7A7C89f0;
+$border-color: rgba(117, 236, 249, 0.6);
+$border-hover-color: #75ecf9;
+
+.heb-popover-overlay {
+  .ant-popover-inner {
+    background: $background-color;
+    backdrop-filter: blur(20px);
+    color: $text-color;
+
+    .ant-popover-title {
+      border: none;
+    }
+  }
+  .ant-popover-arrow-content {
+    background-color: $background-color;
+  }
+}

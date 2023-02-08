@@ -1,0 +1,41 @@
+.heb-switch__container {
+  margin-left: 12px;
+  background: #737390;
+  border: 1px solid #75ECF9;
+  border-radius: 12.5px;
+  padding: 0 10px 0 0;
+}
+.heb-switch__container > :last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+}
+.heb-switch.ant-switch {
+  width: 56.38px;
+  height: 22.5px;
+  margin-right: 12px;
+  background: url(/img/svg/checkers.svg),
+              linear-gradient(0deg,
+                              rgba(0, 0, 0, 0.2),
+                              rgba(0, 0, 0, 0.2)),
+              linear-gradient(180deg,
+                              #003251 0%,
+                              #1E5E90 100%);
+}
+.heb-switch.ant-switch .ant-switch-handle:before {
+  width: 35.88px;
+  height: 20.17px;
+  border-radius: 10px;
+  top: -1px;
+  background: url(/img/svg/switch.svg) left top no-repeat;
+  background-size: 100%;
+  box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.59), 0px 3.28515px 10.7244px rgba(0, 0, 0, 0.432245), 0px 1.59488px 5.71161px rgba(0, 0, 0, 0.356146), 0px 0.781839px 2.86509px rgba(0, 0, 0, 0.281617), 0px 0.30914px 1.11082px rgba(0, 0, 0, 0.190443);
+}
+.heb-switch.ant-switch .ant-switch-handle {
+  left: 1px !important;
+}
+.heb-switch.ant-switch.ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 35.88px - 1px) !important;
+}

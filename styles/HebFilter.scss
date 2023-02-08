@@ -1,0 +1,24 @@
+.heb-filter {
+
+  .ant-form-item-label {
+    color: #FFFFFF;
+    font-style: normal;
+
+    & > label > h3 {
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 2.375rem;
+      letter-spacing: 0.1875rem;
+      text-transform: uppercase;
+
+    }
+
+    & > label {
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+  }
+}

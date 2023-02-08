@@ -1,0 +1,63 @@
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button,
+.heb-input-search span.ant-input-affix-wrapper {
+  height: 51.13px !important;
+}
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button,
+.heb-input-search span.ant-input-affix-wrapper,
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button,
+.heb-input-search .ant-input-group-addon,
+.heb-input-search span.ant-input-affix-wrapper > .ant-input,
+.heb-input-search span.ant-input-wrapper > .ant-input,
+.heb-input-search .ant-input-affix-wrapper-focused {
+  background: unset !important;
+  border: unset !important;
+  box-shadow: none;
+}
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button {
+  box-shadow: unset;
+}
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button {
+  padding-left: 22px;
+  padding-top: 15px;
+}
+.heb-input-search span.ant-input-affix-wrapper > .ant-input,
+.heb-input-search span.ant-input-wrapper > .ant-input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+}
+.heb-input-search button.ant-btn.ant-btn-primary.ant-input-search-button svg {
+  font-size: 25.94px;
+}
+
+.heb-input-search.heb-input-search-type__primary .ant-input-wrapper.ant-input-group {
+  border: 1px solid #75ECF9 !important;
+  background: #737390 !important;
+  box-shadow: inset 7px 4px 7px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0.625rem !important;
+}
+.heb-input-search.heb-input-search-type__primary span.ant-input-affix-wrapper > .ant-input,
+.heb-input-search.heb-input-search-type__primary span.ant-input-wrapper > .ant-input {
+  color: #ffffff;
+}
+
+.heb-input-search.heb-input-search-size__over-small button.ant-btn.ant-btn-primary.ant-input-search-button,
+.heb-input-search.heb-input-search-size__over-small span.ant-input-affix-wrapper {
+  height: 40px !important;
+}
+.heb-input-search.heb-input-search-size__over-small .ant-input-wrapper.ant-input-group {
+  border-radius: 0 !important;
+}
+.heb-input-search.heb-input-search-size__over-small span.ant-input-affix-wrapper > .ant-input,
+.heb-input-search.heb-input-search-size__over-small span.ant-input-wrapper > .ant-input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.heb-input-search.heb-input-search-size__over-small button.ant-btn.ant-btn-primary.ant-input-search-button svg {
+  font-size: 15.94px;
+}

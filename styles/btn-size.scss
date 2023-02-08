@@ -1,0 +1,73 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+
+.heb-button-size {
+  &__middle {
+    height: 4.1875rem !important;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  &__small {
+    height: 3.3125rem !important;
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.0625rem;
+    text-transform: lowercase;
+
+    @media #{$mq-tiny} {
+    }
+
+    @media #{$mq-small} {
+      font-size: 1rem;
+      line-height: 1.1875rem;
+      letter-spacing: 0.0625rem;
+      text-transform: lowercase;
+    }
+
+    @media #{$mq-medium} {
+      line-height: 1rem;
+      font-size: 0.75rem;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+
+    @media #{$mq-large}{
+    }
+
+
+    & span[role=img] {
+      font-size: 14px;
+    }
+  }
+
+  &__over-small {
+    height: 2.6rem !important;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+  }
+}

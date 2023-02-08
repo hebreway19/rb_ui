@@ -1,0 +1,134 @@
+@import "./dropdown.scss";
+
+.heb-select {
+  & > .ant-select-selector {
+    height: 3.32125rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    background-color: inherit !important;
+    color: #ffffff !important;
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  &.circular > .ant-select-selector {
+    border-radius: .625rem !important;
+  }
+}
+
+.heb-select .ant-select-selection-placeholder,
+.heb-select .ant-select-selector,
+.heb-select .ant-select-selection-item,
+.heb-select > .ant-select-selector > .ant-select-selection-search,
+.heb-select > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input,
+.heb-select > .ant-select-selector input  {
+  background-color: inherit !important;
+  line-height: 3.32125rem !important;
+  color: #ffffff !important;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heb-select.heb-select-type__primary .ant-select-selection-placeholder,
+.heb-select.heb-select-type__primary .ant-select-selector,
+.heb-select.heb-select-type__primary .ant-select-selection-item,
+.heb-select.heb-select-type__primary > .ant-select-selector > .ant-select-selection-search,
+.heb-select.heb-select-type__primary > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input {
+  background: #737390 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+.heb-select.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  box-shadow: none;
+}
+.heb-select.heb-select-type__primary .ant-select-selector {
+  border-radius: 0 !important;
+  border: .125rem solid #75ECF9 !important;
+  box-shadow: none;
+}
+
+.heb-select .ant-select-selector > .ant-select-selection-item:after {
+  content: url(/img/arrow.svg) !important;
+  width: .75rem;
+  margin-left: 1.03625rem;
+  visibility: visible;
+}
+.heb-select.without-arrow .ant-select-selector > .ant-select-selection-item:after {
+  content: none;
+  display: none;
+}
+
+.heb-select-type__default > .ant-select-selector {
+  border: .0625rem solid #8B91B5 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+.heb-select-type__text > .ant-select-selector {
+  border: none !important;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+  box-shadow: none !important;
+}
+
+.heb-select-type__filter {
+  background: #737390 !important;
+  box-shadow: inset .4375rem .25rem .4375rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.625rem !important;
+
+  & > .ant-select-selector {
+    border: .0625rem solid #75ECF9 !important;
+    background: transparent !important;
+    filter: drop-shadow(.0625rem -.125rem 1.25rem rgba(255, 255, 255, 0.03));
+    box-sizing: border-box;
+    border-radius: 0.625rem !important;
+  }
+
+  & > .ant-select-selector > .ant-select-selection-search {
+    font-size: 1.25rem !important;
+    line-height: 2.75rem !important;
+    color: #BAB3B3 !important;
+  }
+
+  & > .ant-select-selector > .ant-select-selection-item {
+    font-size: 1.25rem !important;
+    line-height: 2.75rem !important;
+    color: #BAB3B3 !important;
+  }
+
+}
+
+.font-family__arial .heb-select:lang(he) .ant-select-selection-placeholder,
+.font-family__arial .heb-select:lang(he) .ant-select-selector,
+.font-family__arial .heb-select:lang(he) .ant-select-selection-item,
+.font-family__arial .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search,
+.font-family__arial .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input,
+.font-family__arial .heb-select:lang(he) > .ant-select-selector input {
+  font-family: Arial, sans-serif !important;
+}
+
+.font-family__сardo .heb-select:lang(he) .ant-select-selection-placeholder,
+.font-family__сardo .heb-select:lang(he) .ant-select-selector,
+.font-family__сardo .heb-select:lang(he) .ant-select-selection-item,
+.font-family__сardo .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search,
+.font-family__сardo .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input,
+.font-family__сardo .heb-select:lang(he) > .ant-select-selector input {
+  font-family: Cardo, sans-serif !important;
+}
+
+.font-family__times_new_roman .heb-select:lang(he) .ant-select-selection-placeholder,
+.font-family__times_new_roman .heb-select:lang(he) .ant-select-selector,
+.font-family__times_new_roman .heb-select:lang(he) .ant-select-selection-item,
+.font-family__times_new_roman .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search,
+.font-family__times_new_roman .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input,
+.font-family__times_new_roman .heb-select:lang(he) > .ant-select-selector input  {
+  font-family: "Times New Roman", sans-serif !important;
+}
+
+.font-family__david_libre .heb-select:lang(he) .ant-select-selection-placeholder,
+.font-family__david_libre .heb-select:lang(he) .ant-select-selector,
+.font-family__david_libre .heb-select:lang(he) .ant-select-selection-item,
+.font-family__david_libre .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search,
+.font-family__david_libre .heb-select:lang(he) > .ant-select-selector > .ant-select-selection-search > .ant-select-selection-search-input,
+.font-family__david_libre .heb-select:lang(he) > .ant-select-selector input  {
+    font-family: "David Libre", sans-serif !important;
+}

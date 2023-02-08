@@ -1,0 +1,67 @@
+// Breakpoints
+$bp-tiny: 320px;
+$bp-small: 768px;
+$bp-medium: 1024px;
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-tiny: "(min-width: #{$bp-tiny})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(min-resolution: 192dpi) and (min-device-pixel-ratio: 2/1)";
+
+.social {
+  &__list {
+
+    &:after {
+      content: " ";
+      position: absolute;
+      z-index: 1;
+      display: block;
+      bottom: 0;
+      left: 0;
+      margin-bottom: -2.2rem;
+      height: 80%;
+      width: 100%;
+      background-image: url(/img/svg/schedule.svg);
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      transform: scale(1, 0.7);
+
+      @media #{$mq-tiny} {
+        height: 80%;
+        margin-bottom: 0;
+        bottom: -5rem;
+      }
+
+      @media #{$mq-medium} {
+        margin-bottom: -1.5rem;
+        bottom: 0;
+      }
+
+      @media #{$mq-large}, #{$mq-retina} {
+        margin-bottom: -2.2rem;
+      }
+    }
+
+    &-icons__container {
+      @media #{$mq-tiny} {
+        padding-top: 1.4rem;
+      }
+
+      @media #{$mq-small} {
+        padding-top: 1.7rem;
+      }
+
+      @media #{$mq-large}, #{$mq-retina} {
+        padding-top: 1.7rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import "./dropdown.scss";
+
+.heb-date-picker.ant-picker {
+  height: 53.14px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  line-height: 1.5715;
+  background-color: inherit !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.heb-date-picker.heb-date-picker__type__primary.ant-picker {
+  background: #737390 !important;
+  border: 1px solid #8B91B5 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+.heb-date-picker__dropdown .ant-picker-header {
+  display: none;
+}
+.heb-date-picker__dropdown .ant-picker-content {
+  margin-top: 48px;
+}
+
+.heb-date-picker__dropdown thead th {
+  font-weight: 600;
+  font-family: "Roboto";
+  transform: scale(1.5, 1);
+  font-size: 14px;
+}
+
+.heb-date-picker__dropdown__header {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  right: 12px;
+}
+
+.heb-date-picker.ant-picker > .ant-picker-input > input,
+.heb-date-picker.ant-picker > .ant-picker-input > input::placeholder {
+  color: #ffffff !important;
+  font-size: 20px;
+  font-family: 'Roboto';
+  background-color: inherit !important;
+}
+
+.heb-date-picker .ant-picker-clear,
+.heb-date-picker .anticon-close-circle,
+.heb-date-picker .ant-picker-suffix {
+  color: #ffffff;
+  background-color: inherit !important;
+}
+.heb-date-picker .ant-picker-input:hover .ant-picker-suffix > * {
+  visibility: hidden !important;
+}
+.heb-date-picker .ant-picker-input:active .anticon-close-circle {
+  transform: rotate(45deg) !important;
+  transition: 0.2s;
+}
+
+.heb-date-picker__type__default {
+
+}
+.heb-date-picker__type__text,
+.heb-date-picker.ant-picker-focused {
+  border: none !important;
+  box-shadow: none;
+}

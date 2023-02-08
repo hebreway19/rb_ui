@@ -1,0 +1,50 @@
+.lesson-page-container .paragraph-text,
+.add-audio-container {
+  background: #C2C4CB;
+  border: .1875rem solid #75ECF9;
+  border-radius: 1.9375rem;
+  padding: 1rem;
+  overflow: auto;
+  max-height: calc(100vh - 10.25rem);
+
+  .ant-typography {
+    color: #000000 !important;
+    p,
+    mark,
+    mark > strong,
+    strong {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      line-height: 1.4375rem;
+      letter-spacing: .0625rem;
+      color: #000000 !important;
+    }
+    strong > a {
+      color: #4285f4 !important;
+      font-weight: bold;
+    }
+    strong > a:hover {
+      color: #1668e7 !important;
+    }
+  }
+}
+
+.lesson-page-container .paragraph-text,
+.add-audio-container {
+  .ant-typography :not(*:lang(he)) {
+    mark :not(*:lang(he)), mark :not(*:lang(he)) > strong:not([lang=he]), strong :not(*:lang(he)) {
+      font-family: Roboto, sans-serif;
+    }
+    strong :not(*:lang(he)) > a :not(*:lang(he)) {
+      font-family: Roboto, sans-serif;
+    }
+  }
+}
+
+.site-page-header-wrapper.without-scroll .answer-text.paragraph-text {
+  min-height: unset;
+  height: unset;
+  max-height: unset;
+  overflow: unset;
+}

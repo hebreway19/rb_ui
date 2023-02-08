@@ -1,0 +1,38 @@
+$text-color: #ffffff;
+$background-color: #7A7C8980;
+$border-color: rgba(117, 236, 249, 0.6);
+$border-hover-color: #75ecf9;
+
+.heb-popconfirm-overlay {
+  .ant-popover-inner[role="tooltip"] {
+    background: $background-color;
+    backdrop-filter: blur(20px);
+
+    .ant-popover-message {
+
+      .ant-popover-message-title {
+        color: $text-color;
+      }
+    }
+    .ant-popover-buttons {
+
+      button {
+        background: none;
+
+        span {
+          color: $text-color !important;
+        }
+      }
+      button:focus,
+      button:hover {
+        border-color: $border-hover-color;
+      }
+      .ant-btn-primary {
+        border-color: $border-color;
+      }
+    }
+  }
+  .ant-popover-arrow-content {
+    background-color: $background-color;
+  }
+}

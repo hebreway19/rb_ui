@@ -1,0 +1,13 @@
+.ulpan-info {
+  @media (max-width: 768px) {
+    margin-bottom: 0.625rem;
+  }
+  & span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #181B1A;
+  }
+}

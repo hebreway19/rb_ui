@@ -1,0 +1,80 @@
+.page-settings__container {
+  max-width: calc(63.75vw - 1.5rem);
+  width: 100%;
+  margin-left: calc(4.43vw + 1.5rem);
+  margin-right: auto;
+  margin-top: 4.5625rem;
+}
+.page-settings__controls__row:not(:first-child) {
+  margin-top: 5.875rem;
+}
+.page-settings__controls__item {
+  text-align: right;
+}
+.page-settings__label__item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.page-settings__label__item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.125rem;
+  background: linear-gradient(269.86deg,
+          #A8FDFF 4.32%,
+          rgba(174, 253, 252, 0.864219) 22.17%,
+          rgba(201, 255, 238, 0.21) 82.2%),
+  linear-gradient(269.86deg,
+                  #A8FDFF 4.32%,
+                  rgba(174, 253, 252, 0.864219) 22.17%,
+                  rgba(201, 255, 238, 0.21) 82.2%);
+}
+.page-settings__label__item.item-1:before {
+  width: 45%;
+}
+.page-settings__label__item.item-2:before {
+  width: 55%;
+}
+.page-settings__label__item.item-3:before {
+  width: 100%;
+}
+
+.page-settings__font-preview {
+  color: #ffffff !important;
+}
+.page-settings__decor-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 16rem;
+  background-size: contain;
+  border: .0625rem solid #59608C;
+}
+
+.label {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+
+  color: #FFFFFF;
+}
+.label-h17 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+
+  color: #FFFFFF;
+}

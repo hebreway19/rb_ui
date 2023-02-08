@@ -1,0 +1,39 @@
+.heb-panel {
+
+  @media(max-width: 768px) {
+    min-height: 9rem;
+  }
+
+  @media(min-width: 768px) {
+    min-height: 12rem;
+  }
+
+  width: 100%;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background-color: transparent !important;
+  border: 3px solid #75ECF9;
+  box-sizing: border-box;
+  /* card */
+
+  box-shadow: inset 0px 4px 6px rgba(117, 236, 249, 0.46);
+  border-radius: 14px;
+
+
+  &-active {
+    background: linear-gradient(180deg, rgba(157, 219, 214, 0.93) 5.64%, rgba(165, 191, 218, 0.93) 50.36%, rgba(146, 148, 216, 0.93) 83.36%);
+  }
+
+  &-hoverable:hover {
+    cursor: pointer;
+  }
+}
